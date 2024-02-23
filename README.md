@@ -1,4 +1,4 @@
-# The Carpentries Workbench Template Markdown Lesson
+# FAIR for busy biologists Lesson
 
 This lesson is a template lesson that uses [The Carpentries Workbench][workbench]. 
 
