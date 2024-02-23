@@ -8,9 +8,9 @@ The course explains the FAIR (Findable, Accessible, Interoperable, Reusable) pri
 ## Introduction
 
 Open Science is disruptive. It is changing how we do research and how society benefits from it.
-* But what does this mean in practice?
-* How can a biologist incorporate these principles in their daily workflow?
-* We will learn that becoming FAIR and following Open Science practices is a process.
+ * But what does this mean in practice?
+ * How can a biologist incorporate these principles in their daily workflow?
+ * We will learn that becoming FAIR and following Open Science practices is a process.
 
 We will teach you how through planning and using a powerful set of tools, you can make your outputs ready for public sharing and reuse. 
 
