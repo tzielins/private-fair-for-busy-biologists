@@ -8,6 +8,7 @@ The course explains the FAIR (Findable, Accessible, Interoperable, Reusable) pri
 ## Introduction
 
 Open Science is disruptive. It is changing how we do research and how society benefits from it.
+
  - But what does this mean in practice?
  - How can a biologist incorporate these principles in their daily workflow?
  - We will learn that becoming FAIR and following Open Science practices is a process.
@@ -50,12 +51,12 @@ Course instructors should check the *instructors* folder which contains:
 
 
 :::::: prereq
- ## Prerequisites
 
  You don't need to have prior knowledge of data management or programming skills.
  You do need to be willing to learn how to apply FAIR principles in your daily research life.
  
- ### We expect you to:
+### We expect you to:
+
  * have a bio/medical background
  * know basics of scientific communication, publications, citations and their importance for careers
  * familiarity with spreadsheets (Excel)
