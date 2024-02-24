@@ -32,6 +32,7 @@ Shania is starting her first postdoctoral stay. She has recently obtained a PhD 
 ## For instructors
 
 Course instructors should check the *instructors* folder which contains:
+
 * notebooks with exercises to by copied to etherpad before the lessons
 * PowerPoint slides to be used during the delivery rather than the plain website text
 
@@ -43,9 +44,9 @@ Course instructors should check the *instructors* folder which contains:
  * explain elements of the Open Science movement
  * explain FAIR principles and understand their importance 
  * plan their own data management strategy
- - prepare their data for re-use
- - apply approaches and tools into a FAIR-ready research data lifecycle
- - find suitable resources for delivering Open Science and FAIR data
+ * prepare their data for re-use
+ * apply approaches and tools into a FAIR-ready research data lifecycle
+ * find suitable resources for delivering Open Science and FAIR data
 :::::: 
 
 
