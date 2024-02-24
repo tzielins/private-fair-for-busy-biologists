@@ -19,12 +19,7 @@ exercises: 20
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::::::::::::::::::: keypoints
 
-- Open Science increases transparency in research
-- Publicly funded science should be publicly available
-
-:::::::::::::::::::::::::::::::::::::::::::::::
 
 (16 min teaching)
 
@@ -361,6 +356,10 @@ making such data accessible for 10 years involves serious financial commitment.
 
 ::::::::::::::::::::::::::::::::::::: 
 
+
+
+
+
 ## Attribution
     
      Content of this episode was adapted from:
@@ -368,5 +367,14 @@ making such data accessible for 10 years involves serious financial commitment.
      * [European Open Science Cloud](https://www.eosc-hub.eu/open-science-info)
      * [Science is necessarily collaborative - The Biochemist article](https://portlandpress.com/biochemist/article/42/3/58/225220/Science-is-necessarily-collaborative).
     
+
+::::::::::::::::::::::::::::::::::::: keypoints
+
+- Open Science increases transparency in research
+- Publicly funded science should be publicly available
+
+:::::::::::::::::::::::::::::::::::::::::::::::
+
+
 
 
