@@ -24,7 +24,7 @@ exercises: 20
 - Open Science increases transparency in research
 - Publicly funded science should be publicly available
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::
 
 (16 min teaching)
 
@@ -56,7 +56,7 @@ Characteristics:
 * Public availability and reusability of scientific data, methods and communications
 * various outputs and audiences
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::
 
 
 
@@ -282,6 +282,7 @@ Discuss Open Science barriers, mention the reasons for not already being open:
  - misuse (fake news)
  - it is not mandatory
  - lack of credit (publishing negative results is of little benefit to you)
+:::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -356,7 +357,7 @@ making such data accessible for 10 years involves serious financial commitment.
 * Open Access permits the whole society to benefit from scientific findings T
 * Citizen Science engages the public in the research process T
 * Citizen Science can help get ecological data quickly T
-
+:::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: 
 
