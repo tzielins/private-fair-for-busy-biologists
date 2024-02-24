@@ -34,34 +34,35 @@ Course instructors should check the *instructors* folder which contains:
 * notebooks with exercises to by copied to etherpad before the lessons
 * PowerPoint slides to be used during the delivery rather than the plain website text
 
-> ## Learning Objectives
->
-> After following this lesson, learners will be able to:
->
-> * explain elements of the Open Science movement
-> * explain FAIR principles and understand their importance 
-> * plan their own data management strategy
-> * prepare their data for re-use
-> * apply approaches and tools into a FAIR-ready research data lifecycle
-> * find suitable resources for delivering Open Science and FAIR data
->
-{: .objectives }
+:::::: objectives
+## Learning Objectives
+
+ After following this lesson, learners will be able to:
+
+ * explain elements of the Open Science movement
+ * explain FAIR principles and understand their importance 
+ * plan their own data management strategy
+ - prepare their data for re-use
+ - apply approaches and tools into a FAIR-ready research data lifecycle
+ - find suitable resources for delivering Open Science and FAIR data
+:::::: 
 
 
-> ## Prerequisites
->
-> You don't need to have prior knowledge of data management or programming skills.
-> You do need to be willing to learn how to apply FAIR principles in your daily research life.
-> 
-> ### We expect you to:
-> * have a bio/medical background
-> * know basics of scientific communication, publications, citations and their importance for careers
-> * familiarity with spreadsheets (Excel)
-> * familiarity with online bioscience data resources (in general, not any particular resource); for example: searching publications
-> * know your ways around files and directories on your own machine 
-> 
-> 
-{: .prereq }  
+
+:::::: prereq
+ ## Prerequisites
+
+ You don't need to have prior knowledge of data management or programming skills.
+ You do need to be willing to learn how to apply FAIR principles in your daily research life.
+ 
+ ### We expect you to:
+ * have a bio/medical background
+ * know basics of scientific communication, publications, citations and their importance for careers
+ * familiarity with spreadsheets (Excel)
+ * familiarity with online bioscience data resources (in general, not any particular resource); for example: searching publications
+ * know your ways around files and directories on your own machine 
+ 
+:::::: 
   
   
 > There is another course aimed at PIs running their research groups 
