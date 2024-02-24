@@ -282,7 +282,8 @@ Discuss Open Science barriers, mention the reasons for not already being open:
  - misuse (fake news)
  - it is not mandatory
  - lack of credit (publishing negative results is of little benefit to you)
-:::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -668,25 +669,7 @@ website.
 
 
 
-> ## Exercise 4: FAIR Quiz (5 min - run through break)
->
-> Which of the following statements is true/false (T or F).
->
->
->> ## Solution
->> * F in FAIR stands for free. F
->> * Only figures presenting results of statistical analysis need underlying numerical data. F
->> * Sharing numerical data as a .pdf in Zenodo is FAIR. F
->> * Sharing numerical data as an Excel file via Github is not FAIR. F
->> * Group website is a good place to share your data. F
->> * Data from failed experiments are not re-usable. F
->> * Data should always be converted to Excel or .csv files in order to be FAIR. F
->> * A DOI of a dataset helps in getting credit. T
->> * FAIR data are peer reviewed. F
->> * FAIR data accompany a publication. F
->>
-> {: .solution}
-{: .challenge}
+
 
 
 ### Where to next
