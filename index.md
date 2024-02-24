@@ -34,7 +34,7 @@ Course instructors should check the *instructors* folder which contains:
 * notebooks with exercises to by copied to etherpad before the lessons
 * PowerPoint slides to be used during the delivery rather than the plain website text
 
-:::::: objectives
+:::::: callout
 ## Learning Objectives
 
  After following this lesson, learners will be able to:
@@ -65,11 +65,9 @@ Course instructors should check the *instructors* folder which contains:
 :::::: 
   
   
-> There is another course aimed at PIs running their research groups 
-> [FAIR in (Biological) Practice for PIs](https://carpentries-incubator.github.io/fair-for-leaders/). 
->
-{: .testimonial}  
-  
+    There is another course aimed at PIs running their research groups 
+    [FAIR in (Biological) Practice for PIs](https://carpentries-incubator.github.io/fair-for-leaders/). 
+
   
 
 [workbench]: https://carpentries.github.io/sandpaper-docs
