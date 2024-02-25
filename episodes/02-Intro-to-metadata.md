@@ -149,8 +149,8 @@ a made-up experiment of plant metabolites
 ![Metadata in data table example](./fig/04-metadatafull_spreadsheet_solution.png)
 *Figure credits: Tomasz Zielinski and Andrés Romanowski*
 
-In groups, identify different types of metadata (administrative,
-descriptive, structural) present in this example.
+Different types of metadata (administrative,
+descriptive, structural) are present in this example.
 
  * Administrative metadata marked in blue
  * Descriptive metadata marked in orange
@@ -170,6 +170,7 @@ For example check the README files of two datasets
 * [NMJ analysis](https://github.com/Boehmin/NMJ_analysis)
 * [COVID wastewater data](https://github.com/BioRDM/COVID-Wastewater-Scotland)
 
+Check what sections the readme files typically include.
 
 
 :::: callout
@@ -303,13 +304,14 @@ Ideally, metadata should not only be machine-readable, but also interoperable
 so that they can interlink or be reasoned about by computer systems.
 
 
-> ## Attribution
->
-> Content of this episode was adapted from:
-> - [Metadata - FAIR data for climate sciences](https://escience-academy.github.io/Lesson-FAIR-Data-Climate/metadata/index.html).
-> - [Metadata - How to FAIR](https://howtofair.dk/how-to-fair/metadata/)
-> - [MIBBI](https://fairsharing.org/collection/MIBBI)
-{: .callout}
+## Attribution
+    
+     Content of this episode was adapted from:
+     
+     - [Metadata - FAIR data for climate sciences](https://escience-academy.github.io/Lesson-FAIR-Data-Climate/metadata/index.html).
+     - [Metadata - How to FAIR](https://howtofair.dk/how-to-fair/metadata/)
+     - [MIBBI](https://fairsharing.org/collection/MIBBI)
+
 
 :::::::::::::::::::::::::::::::::::::::::::::::: keypoints
 
