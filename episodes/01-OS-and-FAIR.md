@@ -673,7 +673,7 @@ website.
 
 ## Open Science and FAIR Quiz (5 min + runs over break)
 
- Which of the following statements about the OS movement are true/false?
+ Which of the following statements about the OS and FAIR are true/false?
 
 * Open Science relies strongly on the Internet
 * Open Access eliminates publishing costs
