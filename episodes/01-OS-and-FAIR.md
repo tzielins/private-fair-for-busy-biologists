@@ -496,3 +496,72 @@ Or domain specific, for example:
 
 *We will cover repositories in more details in a later episode.*
 
+::::::::::::::::::::::::::::::::::::: spoiler
+
+## What are persistent identifiers (PIDs)
+
+ A persistent identifier is a long-lasting reference to a digital resource.
+ Typically it has two components:
+
+ * a service that locates the resource over time even when its location changes
+ * and a unique identifier (that distinguishes the resource or concept from others).
+
+ Persistent identifiers aim to solve the problem of the persistence of accessing cited resource,
+ particularly in the field of academic literature. All too often, web addresses (links) changes over time
+ and fail to take you to the referenced resource you expected.
+
+ There are several services and technologies (schemes) that provide PIDs
+ for objects (whether digital, physical or abstract).
+ One of the most popular is **Digital Object Identifier [(DOI)](https://www.doi.org/)**,
+ recognizable by the prefix doi.org in the web links.
+ For example: [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
+ resolves to the location of the paper that describes FAIR principles.
+
+ Public repositories often maintain web addresses of their content in a stable form
+ which follow the convention http://repository.adress/identifier;
+ these are often called permalinks.
+ For well establish services, permalinks can be treated as PIDs.
+
+ For example: [http://identifiers.org/SO:0000167](http://identifiers.org/SO:0000167) resolves to a page
+ defining promoter role, and can be used to annotate part of a DNA sequence
+ as performing such a role during transcription.
+
+
+
+::::::::::::::::::::::::::::::::::::: 
+
+#### Interoperable
+
+* Use common/free file formats (can be domain specific)
+* Always use .csv or .xls files for numerical data. **Never** share data tables as word or pdf,
+* Provide underlying numerical data for all plots and graphs
+* Convert proprietary binary formats to the open ones.
+  For example
+ convert Snapgene to Genbank, microscopy multistack images to OME-TIFF
+
+#### Reusable
+
+1. Describe your data well / provide good metadata
+
+    * write README file describing the data
+    * user descriptive column headers for the data tables
+    * tidy data tables, make them analysis friendly
+    * provide as many details as possible (prepare good metadata)
+    * use (meta)data formats (e.g. SBML, SBOL)
+    * follow Minimum Information Standards
+
+*Describing data well is the most challenging part of the data sharing process.
+We will cover this in more detail later on.*
+
+
+2. Attach license files.
+
+Licenses explicitly declare conditions and terms by which data and software can be re-used.
+Here, we recommend:
+
+  * for data [Creative Commons Attribution (CC BY)](https://creativecommons.org/licenses/by/4.0/)
+license,
+  * for code a permissive open source license such
+as the [MIT](https://opensource.org/licenses/MIT),
+[BSD](https://opensource.org/licenses/BSD-2-Clause),
+or [Apache license](http://www.apache.org/licenses/).
