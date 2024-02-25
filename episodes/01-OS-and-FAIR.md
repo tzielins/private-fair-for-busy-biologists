@@ -612,7 +612,7 @@ or [Apache license](http://www.apache.org/licenses/).
 * (R) Data are released under open Creative Commons Attribution Licence
 
 :::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::: challenge 
+:::::::::::::::::::::::::::::::::::::  
 
 
 
@@ -676,4 +676,83 @@ website.
      - [Challenges & benefits of OS](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246)
      - [Centre for Open Science](https://www.cos.io/)
      - [Ted talk supporting OS](https://www.youtube.com/watch?v=c-bemNZ-IqA)
+
+
+
+
+
+
+
+::::::::::::::::::::::::::::::::::::: challenge
+
+## Open Science and FAIR Quiz (5 min + runs over break)
+
+ Which of the following statements about the OS movement are true/false?
+
+* Open Science relies strongly on the Internet
+* Open Access eliminates publishing costs
+* Open Data facilitates re-use
+* Open Data can increases confidence in research findings
+* In Open Peer Review, readers vote on publication acceptance  
+* Open Access permits the whole society to benefit from scientific findings
+* Citizen Science engages the public in the research process
+* Release of public datasets is important for career progression
+* F in FAIR stands for free.
+* Only figures presenting results of statistical analysis need underlying numerical data.
+* Sharing numerical data as a .pdf in Zenodo is FAIR.
+* Sharing numerical data as an Excel file via Github is not FAIR.
+* Group website is a good place to share your data.
+* Data should always be converted to Excel or .csv files in order to be FAIR.
+* A DOI of a dataset helps in getting credit.
+* FAIR data are peer reviewed.
+* FAIR data accompany a publication.
+
+:::::::::::::::::::::::::::::::::::: solution
+
+## Solution
+
+* Open Science relies strongly on the Internet T
+* Open Access eliminates publishing costs F
+* Open Data facilitates re-use T
+* Open Data increases confidence in research findings T
+* In Open Peer Review, readers vote on publication acceptance  F
+* Open Access permits the whole society to benefit from scientific findings T
+* Citizen Science engages the public in the research process T
+* Release of public datasets is important for career progression T
+* F in FAIR stands for free. F
+* Only figures presenting results of statistical analysis need underlying numerical data. F
+* Sharing numerical data as a .pdf in Zenodo is FAIR. F
+* Sharing numerical data as an Excel file via Github is not FAIR. F
+* Group website is a good place to share your data. F
+* Data should always be converted to Excel or .csv files in order to be FAIR. F
+* A DOI of a dataset helps in getting credit. T
+* FAIR data are peer reviewed. F
+* FAIR data accompany a publication. F
+
+:::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: 
+
+
+
+
+
+## Attribution
+    
+     Content of this episode was adapted from:
+     * Wiki [Open Science](https://en.wikipedia.org/wiki/Open_science)
+     * [European Open Science Cloud](https://www.eosc-hub.eu/open-science-info)
+     * [Science is necessarily collaborative - The Biochemist article](https://portlandpress.com/biochemist/article/42/3/58/225220/Science-is-necessarily-collaborative).
+    
+
+::::::::::::::::::::::::::::::::::::: keypoints
+
+- Open Science increases transparency in research
+- Publicly funded science should be publicly available
+- FAIR stands for Findable Accessible Interoperable Reusable
+- FAIR assures easy reuse of data underlying scientific findings
+
+:::::::::::::::::::::::::::::::::::::::::::::::
+
+
 
