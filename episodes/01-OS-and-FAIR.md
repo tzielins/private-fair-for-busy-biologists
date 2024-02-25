@@ -483,12 +483,14 @@ Repositories provide persistent identifiers (PIDs), catalogue options,
 advanced metadata searching, and download statistics. Some repositories can also host private data or provide embargo periods, meaning access to all data can be delayed.
 
 There are general "data agnostic" repositories, for example:
+
 * [Dryad](http://datadryad.org),
 * [Zenodo](http://zenodo.org),
 * [FigShare](http://figshare.com),
 * [Dataverse](http://thedata.org).
 
 Or domain specific, for example:
+
 * [UniProt](https://www.uniprot.org/) protein data,
 * [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) sequence data,
 * [MetaboLights](https://www.ebi.ac.uk/metabolights/) metabolomics data
@@ -543,14 +545,14 @@ Or domain specific, for example:
 
 1. Describe your data well / provide good metadata
 
-    * write README file describing the data
-    * user descriptive column headers for the data tables
-    * tidy data tables, make them analysis friendly
-    * provide as many details as possible (prepare good metadata)
-    * use (meta)data formats (e.g. SBML, SBOL)
-    * follow Minimum Information Standards
+ * write README file describing the data
+ * user descriptive column headers for the data tables
+ * tidy data tables, make them analysis friendly
+ * provide as many details as possible (prepare good metadata)
+ * use (meta)data formats (e.g. SBML, SBOL)
+ * follow Minimum Information Standards
 
-*Describing data well is the most challenging part of the data sharing process.
+*Describing data in sufficient details is the most challenging part of the data sharing process.
 We will cover this in more detail later on.*
 
 
@@ -590,7 +592,7 @@ or [Apache license](http://www.apache.org/licenses/).
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
- ## Exercise 4: Example of FAIR data (4 min)
+## Exercise 4: Example of FAIR data (4 min)
 
  Zenodo is general data repository. 
  Have a look at the dataset record with COVID-19 data:
@@ -604,12 +606,12 @@ or [Apache license](http://www.apache.org/licenses/).
 
 ## Solution
 
-* (F) The dataset is identified by a PID (doi). It can be found by its ID. It  human accessible description and keywords, both suitable for discovery. 
-* (A) Data can be downloaded using standard browser.
-* (I) Dataset entries are in common formats: csv, R, jpg
-* (I) Dataset is linked to publication, github record and project website
-* (R) The record contains rich metadata in README file, including files structure and the detailed tables formats.
-* (R) Data are released under open Creative Commons Attribution Licence
+* F: The dataset is identified by a PID (doi). It can be found by its ID. It  human accessible description and keywords, both suitable for discovery. 
+* A: Data can be downloaded using standard browser.
+* I: Dataset entries are in common formats: csv, R, jpg
+* I: Dataset is linked to publication, github record and project website
+* R: The record contains rich metadata in README file, including files structure and the detailed tables formats.
+* R: Data are released under open Creative Commons Attribution Licence
 
 :::::::::::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::  
@@ -667,22 +669,6 @@ website.
 
 
 
-
-
-
-
-### Where to next
-     Further reading/links:
-     - [Challenges & benefits of OS](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246)
-     - [Centre for Open Science](https://www.cos.io/)
-     - [Ted talk supporting OS](https://www.youtube.com/watch?v=c-bemNZ-IqA)
-
-
-
-
-
-
-
 ::::::::::::::::::::::::::::::::::::: challenge
 
 ## Open Science and FAIR Quiz (5 min + runs over break)
@@ -732,6 +718,16 @@ website.
 :::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: 
+
+
+
+
+### Where to next
+     Further reading/links:
+     - [Challenges & benefits of OS](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246)
+     - [Centre for Open Science](https://www.cos.io/)
+     - [Ted talk supporting OS](https://www.youtube.com/watch?v=c-bemNZ-IqA)
+
 
 
 
