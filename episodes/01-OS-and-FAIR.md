@@ -418,4 +418,81 @@ Please calculate the average (over genotypes) nitrogen content for the two exper
 :::::::::::::::::::::::::::::::::::::
 
 
+(29 min teaching)
+
+
+The above examples illustrate the typical challenges in accessing research
+data and software. Firstly, data/protocols/software often do not have an identity
+of their own, but only accompany a publication.
+Second, they are not easily accessible or reusable, for example, all the details are inside one supporting information PDF file. Such file includes "printed" numerical table or even source code, both of which need to be "re-typed" if someone would like to use them. Data are shared in proprietary file format specific to a particular vendor and not accessible if one does not have a particular software that accompanies the equipment. Finally, data files are provided without detailed description
+other than the whole article text.
+
+In our examples, the protocol was difficult to **find** (the loops),
+difficult to **access** (pay wall), and not **reusable** as it lacked the necessary details (dead-end).
+In the second example the data were not **interoperable** and **reusable**
+as their were only available as a figure graph.
+
+To avoid such problems FAIR principles were designed.
+
+![Figure 2. FAIR principles](./fig/FAIR.png)
+After [SangyaPundir](https://commons.wikimedia.org/wiki/File:FAIR_data_principles.jpg)
+
+::::::::::::::::::::::::::::::::::::: callout
+
+## FAIR Principles
+
+
+ In 2016, the [FAIR Guiding Principles for scientific data management and stewardship](https://www.nature.com/articles/sdata201618)
+ were published in Scientific Data.
+ The original guideline focused on "machine-actionability" -
+ the ability of computer systems to operate on data with
+ minimal human intervention. However, now the focus has shifted
+ to making data accessible from a human perspective, and not an automated one
+ (mostly due to the lack of user friendly tools that could help
+ deal with standards and structured metadata).
+
+ **Findable**:  Easy to find data and metadata for
+ both humans and computers.
+ Automatic and reliable discovery of datasets and services depends
+ on machine-readable persistent identifiers (PIDs) and metadata.
+
+ **Accessible**: (Meta)data should be retrievable by their identifier using
+ a standardized and open communications protocol (including authentication
+ and authorisation). Metadata should be available even when the data
+ are no longer available.
+
+ **Interoperable**: Data should be able to be combined with and used
+ with other data or tools. The format of the data should be open and
+ interpretable for various tools. It applies both to data and
+ metadata, (meta)data should use vocabularies that follow FAIR principles.
+
+ **Re-usable**: FAIR aims at optimizing the reuse of data.
+ Metadata and data should be well-described so that they can be replicated
+ and/or combined in different settings. The reuse of (meta)data
+ should be stated with clear and accessible license(s).
+
+:::::::::::::::::::::::::::::::::::::
+
+## FAIR in biological practice
+
+#### Findable & Accessible
+
+Deposit data to an external, reputable public repository.
+
+Repositories provide persistent identifiers (PIDs), catalogue options,
+advanced metadata searching, and download statistics. Some repositories can also host private data or provide embargo periods, meaning access to all data can be delayed.
+
+There are general "data agnostic" repositories, for example:
+* [Dryad](http://datadryad.org),
+* [Zenodo](http://zenodo.org),
+* [FigShare](http://figshare.com),
+* [Dataverse](http://thedata.org).
+
+Or domain specific, for example:
+* [UniProt](https://www.uniprot.org/) protein data,
+* [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) sequence data,
+* [MetaboLights](https://www.ebi.ac.uk/metabolights/) metabolomics data
+* [GitHub](https://github.com/) for code.
+
+*We will cover repositories in more details in a later episode.*
 
