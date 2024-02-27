@@ -328,9 +328,9 @@ Title   |  Starch content in Arabidopis T. under different light conditions
 ::::::::::::: 
 ::::::::::::: 
 
-:::: callout
 
 ## Clean data tables make life easier (6 min teaching)
+
 
  Let's check the cleaned version of the previous [file](./files/04-better-metadata.xlsx).
 
@@ -342,7 +342,6 @@ Title   |  Starch content in Arabidopis T. under different light conditions
 
  How long do you think it took to "clean" the original, problematic data?
 
-:::: 
 
 ::::::::::::: challenge
 ## Exercise 3: Outsmarted by Excel (3 min)
@@ -379,6 +378,8 @@ automatically converting gene names to things like calendar dates or random numb
 Those errors actually forced the renaming of 27 gene symbols
 including SEPT4 (now SEPTIN4) and MARCH1 (now MARCHF1).
 
+## Handling dates
+
 Storing and handling dates is generally problematic even in programming languages,
 as we tend to use dates in various formats and those formats are region specific.
 
@@ -386,58 +387,62 @@ Have you ever got confused by a meeting date from an American collaborator?
 
 If the dates are "real" data, for example sample collection from a patient or field measurement, preventing misinterpretations is crucial. There are two safe options:
 
-1. Store dates in 3 columns for year, month and day:
+#### Store dates in 3 columns for year, month and day:
 
 | Year | Month | Day
 |------|-------|----
 | 2021 | 3 | 16
 | 2021 | 10 | 1
 
-2. Store the date as an [ISO](https://en.wikipedia.org/wiki/ISO_8601) string:
-`YYYYMMDD` e.g. `20210316`
+#### Or store the date as an [ISO](https://en.wikipedia.org/wiki/ISO_8601) string:
+`YYYYMMDD` e.g. `20210316`  
+`YYYY-MM-DD` e.g. `2021-03-16`
+
 
 Even though, normally `YYYY-MM-DD` format is preferred, it will be sadly reformatted by Excel according to your locale when saving to text like .csv!
 
 When using text files (.csv, .tsv), You should always document what format you are using to represent dates.
 
 :::::::: callout
+
 ## To use or not to use Excel
 
- The Excel file format `.xlsx` is now open, widely used and supported by external libraries
- and thus it could be considered interoperable. Nowadays it is admissible as being FAIR.
+The Excel file format `.xlsx` is now open, widely used and supported by external libraries
+and thus it could be considered interoperable. Nowadays it is admissible as being FAIR.
 
- However, plain text files like comma or tab separated values (.csv, .tsv) can be accessed without
- any special software. Data in a CSV file can also easily be imported into other formats
- and environments, such as SQLite and R. We are not tied to a certain version of a certain
- expensive program when we work with CSV files,
- so it is a good format to work with for maximum portability, interoperability and endurance.
- If such files are handled only with text editors or programmatically (R, Python)
- then they are a safer option as they prevent the autoformatting issues described before.
+However, plain text files like comma or tab separated values (.csv, .tsv) can be accessed without
+any special software. Data in a CSV file can also easily be imported into other formats
+and environments, such as SQLite and R. We are not tied to a certain version of a certain
+expensive program when we work with CSV files,
+so it is a good format to work with for maximum portability, interoperability and endurance.
 
- If you analyse your data with R or Python, or you know that your data are meant
- to be processed that way
- you should be using text formats whenever possible, and as soon as you capture your data.
+If such files are handled only with text editors or programmatically (R, Python)
+then they are a safer option as they prevent the autoformatting issues described before.
 
- However, if you only use Excel and so does your community, just keep using it.
- Just be aware of the possible pitfalls discussed, especially when working with gene or protein names and accession numbers.
+If you analyse your data with R or Python, or you know that your data are meant
+to be processed that way
+you should be using text formats whenever possible, and as soon as you capture your data.
 
+However, if you are used to only use Excel and so does your community, just keep using it. 
+Just be aware of the possible pitfalls discussed, especially when working with gene or protein names and accession numbers.
 
 :::::::: 
 
 :::::::: callout
+
 ## Cleaning data with Open Refine
 
- There are tools that help you to clean and reorganize existing data.
+There are tools that help you to clean and reorganize existing data.
 
- [OpenRefine](https://openrefine.org/) is a powerful tool for working with messy data:
- cleaning it; transforming it from one format into another;
- and extending it with web services and external data.
+[OpenRefine](https://openrefine.org/) is a powerful tool for working with messy data:
+cleaning it; transforming it from one format into another;
+and extending it with web services and external data.
 
- With OpenRefine you can find and merge synonyms like: `E. Coli`, `EColi`, `Escherichia coli` into one,
- or split values in the `Name` field into `FirstName` and `LastName`.
+With OpenRefine you can find and merge synonyms like: `E. Coli`, `EColi`, `Escherichia coli` into one,
+or split values in the `Name` field into `FirstName` and `LastName`.
 
- There is a carpentry course available:
- [Data Cleaning with OpenRefine for Ecologists](https://datacarpentry.org/OpenRefine-ecology-lesson/)
+There is a carpentry course available:
+[Data Cleaning with OpenRefine for Ecologists](https://datacarpentry.org/OpenRefine-ecology-lesson/)
 
 :::::::: 
 
