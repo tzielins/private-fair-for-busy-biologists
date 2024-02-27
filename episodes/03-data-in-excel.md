@@ -26,12 +26,23 @@ statement, to professional databases. No surprise then that we biologists love t
 and we tend to predominantly use Excel.
 
 :::::::: callout
-Some title
+
+### Some title
 
 Excel is easy to use, flexible and powerful, however, it often gives us too much freedom
 which leads to bad practices and difficult to re-use data and metadata.
 
 ::::::::
+
+:::::::: callout
+
+## Some title
+
+Excel is easy to use, flexible and powerful, however, it often gives us too much freedom
+which leads to bad practices and difficult to re-use data and metadata.
+
+::::::::
+
 
 ::::::::::::: challenge
 
