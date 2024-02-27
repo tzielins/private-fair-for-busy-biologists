@@ -25,9 +25,12 @@ That is why we find them almost everywhere, from a menu in a restaurant, a bank
 statement, to professional databases. No surprise then that we biologists love tables
 and we tend to predominantly use Excel.
 
+:::::::: callout
+
 Excel is easy to use, flexible and powerful, however, it often gives us too much freedom
 which leads to bad practices and difficult to re-use data and metadata.
 
+::::::::
 
 ::::::::::::: challenge
 
