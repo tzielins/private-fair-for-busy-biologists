@@ -406,7 +406,7 @@ Have you realised that the above suggestions mean including valuable metadata as
 
 
 
-:::::::::::::::::::::::::::::::::::::::::::::::
+
 
 ## Attribution
 Content of this episode was created using the following references as inspiration:
