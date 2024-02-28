@@ -198,7 +198,7 @@ capture some of those parameters.
 
 :::::::::::::::::::::::::::::::::::::::::::::::: challenge
 
- ## Exercise 3: Folders vs Files (5 min)
+## Exercise 3: Folders vs Files (5 min)
 
  Have a look as these two different organization strategies:
 
@@ -326,7 +326,7 @@ You can start by developing a logical folder structure. To do so, you need to ta
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-:::::::::::::::::::::::::::::::::::::::::::::::: callout
+:::::::::::::::::::::::::::::::::::::::::::::::: spoiler
 
 ## (Optional) Good enough practices for scientific computing recommendations
 
@@ -345,8 +345,8 @@ You can start by developing a logical folder structure. To do so, you need to ta
 ::::::::::::::::::::::::::::::::::::::::::::::: 
 
 
-(5 min teaching)
-## After you have a plan
+
+## After you have a plan (5 min teaching)
 Your naming conventions might need some adjustments as the project progresses.
 Don't despair, just document it!
 
