@@ -1,72 +1,51 @@
-# The Carpentries Workbench Template Markdown Lesson
+# FAIR for busy biologists Lesson
 
-This lesson is a template lesson that uses [The Carpentries Workbench][workbench]. 
+## General information
 
-## Note about lesson life cycle stage
-Although the `config.yaml` states the life cycle stage as pre-alpha, **the template is stable and ready to use**. The life cycle stage is preset to `"pre-alpha"` as this setting is appropriate for new lessons initialised using the template.
+This lesson serves as the cornerstone for effectively integrating Open Science and FAIR principles into the management of biological research data. 
 
-## Create a new repository from this template
+While our original lesson, [FAIR in bio practice](https://carpentries-incubator.github.io/fair-bio-practice/), has been highly praised by participants and received overwhelmingly positive feedback, its extensive duration spanning over 20 hours has resulted in low workshop participation rates.
 
-To use this template to start a new lesson repository, 
-make sure you're logged into Github.   
-Visit https://github.com/carpentries/workbench-template-md/generate
-and follow the instructions.
-Checking the 'Include all branches' option will save some time waiting for the first website build
-when your new repository is initialised.
+Drawing from our insights and experiences, we have refined and condensed the content into a more accessible format. The updated version consists of two sessions, each lasting three hours, strategically focusing on essential skills and engaging exercises. This trimmed, streamlined approach aims to enhance the workshop experience and facilitate greater uptake among participants.
 
-If you have any questions, contact [@tobyhodges](https://github.com/tobyhodges)
+We [(the UoE BioRDM team)](https://www.wiki.ed.ac.uk/display/RDMS) have identified that a gap exists in the knowledge of how to apply FAIR principles to real-life day-to-day biological research. An understanding of the principles of good data management is just as important as the practicalities. Researchers must become conversant with the Open Science ethos, the Reproducible Research movement, and the FAIR principles, to explain their new skills and to recognize or evaluate them in their peers.
 
-## Configure a new lesson
+The overall goals of the lesson are: 
+* To teach solid basic concepts in open science, FAIR guidelines and data management.
+* To teach how to be FAIR in practice.
+* To teach how to organize research workflows in such a way that it is easy to make biological research open, findable and reusable.
 
-Follow the steps below to
-complete the initial configuration of a new lesson repository built from this template:
+We are developing this lesson as part of the ED-DaSH consortium, supported by the "Data driven life science skills development - equipping society for the future" UKRI-MRC grant MR/V039075/1.
 
-1. **Make sure GitHub Pages is activated:**
-   navigate to _Settings_,
-   select _Pages_ from the left sidebar,
-   and make sure that `gh-pages` is selected as the branch to build from.
-   If no `gh-pages` branch is available, check _Actions_ to see if the first
-   website build workflows are still running.
-   The branch should become available when those have completed.
-1. **Adjust the `config.yaml` file:**
-   this file contains global parameters for your lesson site.
-   Individual fields within the file are documented with comments (beginning with `#`)
-   At minimum, you should adjust all the fields marked 'FIXME':
-   - `title`
-   - `created`
-   - `keywords`
-   - `life_cycle` (the default, _pre-alpha_, is the appropriate for brand new lessons)
-   - `contact`
-1. **Annotate the repository** with site URL and topic tags:
-   navigate back to the repository landing page and
-   click on the gear wheel/cog icon (similar to ⚙️) 
-   at the top-right of the _About_ box.
-   Check the "Use your GitHub Pages website" option,
-   and [add some keywords and other annotations to describe your lesson](https://cdh.carpentries.org/the-carpentries-incubator.html#topic-tags)
-   in the _Topics_ field.
-   At minimum, these should include:
-   - `lesson`
-   - the life cycle of the lesson (e.g. `pre-alpha`)
-   - the human language the lesson is written in (e.g. `deutsch`)
-1. **Adjust the 
-   `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, and `LICENSE.md` files**
-   as appropriate for your project.
-   -  `CODE_OF_CONDUCT.md`: 
-      if you are using this template for a project outside The Carpentries,
-      you should adjust this file to describe 
-      who should be contacted with Code of Conduct reports,
-      and how those reports will be handled.
-   -  `CONTRIBUTING.md`:
-      depending on the current state and maturity of your project,
-      the contents of the template Contributing Guide may not be appropriate.
-      You should adjust the file to help guide contributors on how best
-      to get involved and make an impact on your lesson.
-   -  `LICENSE.md`:
-      in line with the terms of the CC-BY license,
-      you should ensure that the copyright information 
-      provided in the license file is accurate for your project.
-1. **Update this README with 
-   [relevant information about your lesson](https://carpentries.github.io/lesson-development-training/collaborating-newcomers.html#readme)**
-   and delete this section.
+<a href=""> <img align="center" src="fig/Ed_DaSH_white_circle.png" alt="Ed_DaSH" width="150" /></a>
 
-[workbench]: https://carpentries.github.io/sandpaper-docs/
+## Development status and contributing
+
+The lesson is currently under active development. We welcome all contributions to improve the lesson! Maintainers will do their best to help you if you have any
+questions, concerns, or experience any difficulties along the way.
+
+We'd like to ask you to familiarize yourself with our [Contribution Guide](CONTRIBUTING.md) and have a look at
+the [more detailed guidelines][lesson-example] on proper formatting, ways to render the lesson locally, and even
+how to write new episodes.
+
+Please see the current list of [issues][FIXME] for ideas for contributing to this
+repository. For making your contribution, we use the GitHub flow, which is
+nicely explained in the chapter [Contributing to a Project](http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project) in Pro Git
+by Scott Chacon.
+Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%20issue-gold.svg). This indicates that the maintainers will welcome a pull request fixing this issue.
+
+
+## Maintainer(s)
+
+Current maintainers of this lesson are
+
+* [Tomasz Zielinski](https://github.com/tzielins)
+
+
+## Authors
+
+A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)
+
+## Citation
+
+To cite this lesson, please consult with [CITATION](CITATION)
