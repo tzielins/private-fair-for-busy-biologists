@@ -215,7 +215,7 @@ day light condition:
 
  ## Solution
  The following code will result in your new graph:
- ~~~
+ ```
  ggplot(subset(df, light_condition %in% "LD"), 
  # subset only SD from >>light condition column for plotting
        mapping = aes(x = genotype, y = biomas, fill = genotype)) + 
@@ -228,22 +228,23 @@ day light condition:
     scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9")) +
     theme_bw() +
     theme(legend.position="none")
- ~~~
+ ```
 
 The following code will result in testing of biomas between genotypes
 in long-days - we assign a new variable to separate both analysis.
- ~~~
+ ```
  res.aov.LD <- aov(biomas ~ genotype, data = subset(df, light_condition %in% "LD"))
  # Summary of the analysis
  summary(res.aov.LD)
- ~~~
+```
  
 The following code will result in Tukey multiple pairwise-comparison
 testing.
- ~~~
+```
  # conduct Tukey multiple pairwise-comparison
  TukeyHSD(res.aov.LD)
- ~~~
+ ```
+ 
 :::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::
 
