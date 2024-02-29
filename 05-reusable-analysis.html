@@ -528,14 +528,16 @@ long-days</li>
 <div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>## Solution The following code will result in your new graph:
-<code>ggplot(subset(df, light_condition %in% "LD"),   # subset only SD from &gt;&gt;light condition column for plotting        mapping = aes(x = genotype, y = biomas, fill = genotype)) +   # x-axis shows genotype, y-axis shows biomas     geom_boxplot(alpha=0.3) +     labs(title = "Biomas per Genotype on long days",         x = "Genotype", # Title of x-axis         y = "Biomas (g)") + # Title of y-axis     # change colour of groups     scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9")) +     theme_bw() +     theme(legend.position="none")</code></p>
+<code>ggplot(subset(df, light_condition %in% "LD"),      # subset only SD from &gt;&gt;light condition column for plotting           mapping = aes(x = genotype, y = biomas, fill = genotype)) +      # x-axis shows genotype, y-axis shows biomas        geom_boxplot(alpha=0.3) +        labs(title = "Biomas per Genotype on long days",            x = "Genotype", # Title of x-axis            y = "Biomas (g)") + # Title of y-axis        # change colour of groups        scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9")) +        theme_bw() +        theme(legend.position="none")</code></p>
 <p>The following code will result in testing of biomas between genotypes
-in long-days - we assign a new variable to separate both analysis.
-<code>res.aov.LD &lt;- aov(biomas ~ genotype, data = subset(df, light_condition %in% "LD"))  # Summary of the analysis  summary(res.aov.LD)</code></p>
+in long-days - we assign a new variable to separate both analysis.</p>
+<pre><code><span>   <span class="va">res.aov.LD</span> <span class="op">&lt;-</span> <span class="fu">aov</span><span class="op">(</span><span class="va">biomas</span> <span class="op">~</span> <span class="va">genotype</span>, data <span class="op">=</span> <span class="fu">subset</span><span class="op">(</span><span class="va">df</span>, <span class="va">light_condition</span> <span class="op">%in%</span> <span class="st">"LD"</span><span class="op">)</span><span class="op">)</span></span>
+<span>   <span class="co"># Summary of the analysis</span></span>
+<span>   <span class="fu">summary</span><span class="op">(</span><span class="va">res.aov.LD</span><span class="op">)</span></span></code></pre>
 <p>The following code will result in Tukey multiple pairwise-comparison
 testing.</p>
-<pre><code><span> <span class="co"># conduct Tukey multiple pairwise-comparison</span></span>
-<span> <span class="fu">TukeyHSD</span><span class="op">(</span><span class="va">res.aov.LD</span><span class="op">)</span></span></code></pre>
+<pre><code><span>     <span class="co"># conduct Tukey multiple pairwise-comparison</span></span>
+<span>     <span class="fu">TukeyHSD</span><span class="op">(</span><span class="va">res.aov.LD</span><span class="op">)</span></span></code></pre>
 </div>
 </div>
 </div>
@@ -680,13 +682,13 @@ Python.</p>
 <p>As a rule, despite the package managment system used, you should try
 to keep track of what libraries you installed during your code
 development and in what versions.</p>
-<div class="codewrapper sourceCode" id="cb3">
+<div class="codewrapper sourceCode" id="cb4">
 <h3 class="code-label">SH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode sh" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="co">## Attribution</span></span>
-<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a> <span class="ex">Content</span> of this episode was adopted after</span>
-<span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a></span>
-<span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a> <span class="ex">*</span> [Why Jupyter is a data scientists<span class="st">' computational notebook of choice](https://doi.org/10.1038/d41586-018-07196-1)</span></span></code></pre>
+<pre class="sourceCode sh" tabindex="0"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="co">## Attribution</span></span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a> <span class="ex">Content</span> of this episode was adopted after</span>
+<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" tabindex="-1"></a> <span class="ex">*</span> [Why Jupyter is a data scientists<span class="st">' computational notebook of choice](https://doi.org/10.1038/d41586-018-07196-1)</span></span></code></pre>
 </div>
 <div id="callout1" class="callout">
 <div class="callout-square">
