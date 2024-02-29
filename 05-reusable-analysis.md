@@ -215,19 +215,20 @@ day light condition:
 
  ## Solution
  The following code will result in your new graph:
+ 
  ```
-    ggplot(subset(df, light_condition %in% "LD"), 
-    # subset only SD from >>light condition column for plotting
-          mapping = aes(x = genotype, y = biomas, fill = genotype)) + 
-    # x-axis shows genotype, y-axis shows biomas
-       geom_boxplot(alpha=0.3) +
-       labs(title = "Biomas per Genotype on long days",
-           x = "Genotype", # Title of x-axis
-           y = "Biomas (g)") + # Title of y-axis
-       # change colour of groups
-       scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9")) +
-       theme_bw() +
-       theme(legend.position="none")
+     ggplot(subset(df, light_condition %in% "LD"), 
+     # subset only SD from >>light condition column for plotting
+           mapping = aes(x = genotype, y = biomas, fill = genotype)) + 
+     # x-axis shows genotype, y-axis shows biomas
+        geom_boxplot(alpha=0.3) +
+        labs(title = "Biomas per Genotype on long days",
+            x = "Genotype", # Title of x-axis
+            y = "Biomas (g)") + # Title of y-axis
+        # change colour of groups
+        scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9")) +
+        theme_bw() +
+        theme(legend.position="none")
  ```
 
 The following code will result in testing of biomas between genotypes
