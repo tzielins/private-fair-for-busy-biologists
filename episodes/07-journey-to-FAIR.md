@@ -1,5 +1,5 @@
 ---
-title: Journey to be FAIR"
+title: Journey to be FAIR
 teaching: 5
 exercises: 10
 ---
