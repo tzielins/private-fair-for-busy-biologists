@@ -56,12 +56,12 @@ We have discussed which elements of a Zenodo record makes it FAIR.
 
 Now, skim through the data set description (HINT there is also a README), try to judge the following, and indicate your evaluation using marks from 0 to 5 (5 best) as to whether: 
 
-•	It is clear what the content of the data set is:
-•	It is clear why the data could be used (i.e., what for):
-•	It is well described:
-•	How confident will you be to work with this data set:
-•	How easy it is to access the data set content:
-•	Your team datasets are equally well described (or better):
+-	It is clear what the content of the data set is:
+-	It is clear why the data could be used (i.e., what for):
+-	It is well described:
+-	How confident will you be to work with this data set:
+-	How easy it is to access the data set content:
+-	Your team datasets are equally well described (or better):
 
 :::::::::::::::::::
 
