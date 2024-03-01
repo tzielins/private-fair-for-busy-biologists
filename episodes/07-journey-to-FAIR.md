@@ -1,5 +1,5 @@
 ---
-title: "Welcome"
+title: Journey to be FAIR"
 teaching: 5
 exercises: 10
 ---
@@ -120,16 +120,17 @@ Some good actions to take:
 ## Resources
 
  
-The BioRDM team has a lot of information about the here taught course material on their [BioRDM wiki](https://www.wiki.ed.ac.uk/display/RDMS/).
+The BioRDM team has a lot of materials on their [BioRDM wiki](https://www.wiki.ed.ac.uk/display/RDMS/).
  
 Practical recipes and interactive guides:
 
 * https://faircookbook.elixir-europe.org/
 * https://rdmkit.elixir-europe.org/
 
-Finding resources like repositories or standards
+Finding resources for example repositories or standards
 
 * https://fairsharing.org/
+* https://www.re3data.org/
 * BioRDM wiki
 
 
