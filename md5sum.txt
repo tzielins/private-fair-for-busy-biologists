@@ -10,6 +10,7 @@
 "episodes/04-files-organization.md" "70fc72251257e4f2e37f4cbe269531d4" "site/built/04-files-organization.md" "2024-02-29"
 "episodes/05-reusable-analysis.md" "1be8b93063c7821685c396d72bf84213" "site/built/05-reusable-analysis.md" "2024-02-29"
 "episodes/06-data-repositories.md" "17996c791689587dc0ae3e2110281ebf" "site/built/06-data-repositories.md" "2024-03-01"
+"episodes/07-journey-to-FAIR.md" "09df5c17c8582039a8357ed43f59e37e" "site/built/07-journey-to-FAIR.md" "2024-03-01"
 "episodes/xTemplate.md" "6c55d31b41d322729fb3276f8d4371fc" "site/built/xTemplate.md" "2024-02-29"
 "instructors/instructor-notes.md" "63eca1767f6b7a73a86bb27da69bf71b" "site/built/instructor-notes.md" "2024-02-29"
 "learners/reference.md" "1c7cc4e229304d9806a13f69ca1b8ba4" "site/built/reference.md" "2023-03-16"
