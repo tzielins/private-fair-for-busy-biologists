@@ -1319,7 +1319,7 @@ any links that you are not going to use.
 </div>
 </div></section><section id="aio-02-Intro-to-metadata"><p>Content from <a href="02-Intro-to-metadata.html">Introduction to metadata</a></p>
 <hr>
-<p>Last updated on 2024-02-29 |
+<p>Last updated on 2024-03-02 |
         
         <a href="https://github.com/BioRDM/fair-for-busy-biologists/edit/main/episodes/02-Intro-to-metadata.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1344,7 +1344,7 @@ any links that you are not going to use.
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Recognise what metadata is</li>
+<li>Recognize what metadata is</li>
 <li>Distinguish different types of metadata</li>
 <li>Know how to decide what to include in metadata</li>
 </ul>
@@ -1357,21 +1357,22 @@ any links that you are not going to use.
 <section id="what-is-or-are-metadata"><h2 class="section-heading">What is (or are) metadata?<a class="anchor" aria-label="anchor" href="#what-is-or-are-metadata"></a>
 </h2>
 <hr class="half-width">
-<p>Simply put, metadata is data about the data. Sound confusing? Lets
-clarify: metadata is the <em>description of data</em>. It allows deeper
-understanding of data and provides insight for its interpretation.
-Hence, your metadata should be considered as important as your data.
-Further, metadata plays a very important role in making your data FAIR.
-It should be continuously added to your research data (not just at the
-beginning or end of a project!). Metadata can be produced in an
-automated way (e.g. when you capture a microscopy image usually the
-accompanying software saves metadata as part of it) or manually.</p>
+<p>Simply put, metadata is data about the data. Sound confusing? Let’s
+clarify: metadata is the <em>description of data</em>. It allows a
+deeper understanding of data and provides insight for its
+interpretation. Hence, your metadata should be considered as important
+as your data. Furthermore, metadata plays a very important role in
+making your data FAIR. It should be continuously added to your research
+data (not just at the beginning or end of a project!). Metadata can be
+produced in an automated way (e.g., when you capture a microscopy image,
+usually the accompanying software saves metadata as part of it) or
+manually.</p>
 <ins>
 Let’s take a look at an example:
 </ins>
 <p>This is a confocal microscopy image of a <em>C. elegans</em> nematode
 strain used as a proteostasis model (Pretty! Isn’t it?). The image is
-part of the raw data associated to <a href="https://doi.org/10.1016/j.celrep.2019.12.078" class="external-link">Goya et al.,
+part of the raw data associated with <a href="https://doi.org/10.1016/j.celrep.2019.12.078" class="external-link">Goya et al.,
 2020</a>, which was deposited in a Public Omero Server<br><a href="https://publicomero.bio.ed.ac.uk/webclient/?show=project-58" class="external-link">Project</a><br><a href="https://publicomero.bio.ed.ac.uk/webclient/?show=dataset-231" class="external-link">Figure1
 set</a></p>
 <p><img src="./fig/04-microscopy_with_metadata.png" alt="nematode_confocal_microscopy_image" width="600" class="figure"><em>Figure credits: María Eugenia Goya</em></p>
@@ -1442,50 +1443,51 @@ NL5901; C. elegans</p>
 </section><section id="types-of-metadata"><h2 class="section-heading">Types of metadata<a class="anchor" aria-label="anchor" href="#types-of-metadata"></a>
 </h2>
 <hr class="half-width">
-<p>According to <a href="https://howtofair.dk/" class="external-link">How to FAIR</a> we can
+<p>According to <a href="https://howtofair.dk/" class="external-link">How to FAIR</a>, we can
 distinguish between three main types of metadata:</p>
 <ul>
 <li>
-<strong>Administrative metadata:</strong> data about a project or
-resource that are relevant for managing it; E.g. project/resource owner,
-principal investigator, project collaborators, funder, project period,
-etc. They are usually assigned to the data, before you collect or create
-them.</li>
+<strong>Administrative metadata:</strong> Data about a project or
+resource that is relevant for managing it; for example, project/resource
+owner, principal investigator, project collaborators, funder, project
+period, etc. They are usually assigned to the data before you collect or
+create them.</li>
 <li>
-<strong>Descriptive or citation metadata:</strong> data about a
-dataset or resource that allow people to discover and identify it; E.g.
-authors, title, abstract, keywords, persistent identifier, related
-publications, etc.</li>
+<strong>Descriptive or citation metadata:</strong> Data about a
+dataset or resource that allows people to discover and identify it; for
+example, authors, title, abstract, keywords, persistent identifier,
+related publications, etc.</li>
 <li>
-<strong>Structural metadata:</strong> data about how a dataset or
-resource came about, but also how it is internally structured. E.g. the
-unit of analysis, collection method, sampling procedure, sample size,
-categories, variables, etc. Structural metadata have to be gathered by
-the researchers according to best practice in their research community
-and will be published together with the data.</li>
+<strong>Structural metadata:</strong> Data about how a dataset or
+resource came about, but also how it is internally structured. For
+example, the unit of analysis, collection method, sampling procedure,
+sample size, categories, variables, etc. Structural metadata have to be
+gathered by the researchers according to best practice in their research
+community and will be published together with the data.</li>
 </ul>
 <p>Descriptive and structural <strong>metadata should be added
 continuously</strong> throughout the project.</p>
 <div class="section level3">
 <h3 id="examples-of-metadata">Examples of metadata<a class="anchor" aria-label="anchor" href="#examples-of-metadata"></a>
 </h3>
-<p>Here we have an excel spreadsheet that contains project metadata for
-a made-up experiment of plant metabolites <img src="./fig/04-metadatafull_spreadsheet_solution.png" alt="Metadata in data table example" class="figure"><em>Figure credits: Tomasz
-Zielinski and Andrés Romanowski</em></p>
+<p>ere we have an Excel spreadsheet that contains project metadata for a
+made-up experiment of plant metabolites:</p>
+<p><img src="./fig/04-metadatafull_spreadsheet_solution.png" alt="Metadata in data table example" class="figure"><br><em>Figure credits: Tomasz Zielinski and Andrés Romanowski</em></p>
 <p>Different types of metadata (administrative, descriptive, structural)
-are present in this example.</p>
+are present in this example:</p>
 <ul>
 <li>Administrative metadata marked in blue</li>
 <li>Descriptive metadata marked in orange</li>
 <li>Structural metadata marked in green</li>
 </ul>
-<p>Embedding metadata with your data as in the example is very useful
-technique as the metadata remain joined to the data.<br>
-As you can see typically the metadata can be found in column headers
-(eg. Strain, Media) or as key value pairs (eg. Funder, Protocols)</p>
+<p>Embedding metadata with your data as in the example is a very useful
+technique as the metadata remain joined to the data. As you can see,
+typically the metadata can be found in column headers (e.g., Strain,
+Media) or as key-value pairs (e.g., Funder, Protocols).</p>
 <p>(6 min teaching)</p>
-<p>Another form of storing metadata is creation of README file.</p>
-<p>For example check the README files of two datasets</p>
+<p>Another form of storing metadata is the creation of a README
+file.</p>
+<p>For example, check the README files of two datasets:</p>
 <ul>
 <li><a href="https://github.com/Boehmin/NMJ_analysis" class="external-link">NMJ
 analysis</a></li>
@@ -1503,9 +1505,9 @@ wastewater data</a></li>
 <div class="callout-content">
 <p>What is “data” and what is “metadata” can be a matter of perspective:
 Some researchers’ metadata can be other researchers’ data.</p>
-<p>For example, a funding body is categorised as typical administrative
-metadata, however, it can be used to calculate numbers of public
-datasets per funder and then used to compare effects of different
+<p>For example, a funding body is categorized as typical administrative
+metadata; however, it can be used to calculate numbers of public
+datasets per funder and then used to compare the effects of different
 funders’ policies on open practices.</p>
 </div>
 </div>
@@ -1514,13 +1516,13 @@ funders’ policies on open practices.</p>
 </section><section id="adding-metadata-to-your-experiments"><h2 class="section-heading">Adding metadata to your experiments<a class="anchor" aria-label="anchor" href="#adding-metadata-to-your-experiments"></a>
 </h2>
 <hr class="half-width">
-<p>Good metadata are crucial for assuring re-usability of your outcomes.
-Adding metadata is also a very time-consuming process if done manually,
-so collecting metadata should be done incrementally during your
-experiment.</p>
-<p>As we saw metadata can take many forms from as simple as including a
-ReadMe.txt file, by embedding them inside the Excel files, to using
-domain specific metadata standards and formats.</p>
+<p>Good metadata is crucial for assuring the reusability of your
+outcomes. Adding metadata is also a very time-consuming process if done
+manually, so collecting metadata should be done incrementally during
+your experiment.</p>
+<p>As we saw, metadata can take many forms, from as simple as including
+a ReadMe.txt file, embedding them inside the Excel files, to using
+domain-specific metadata standards and formats.</p>
 <p>But, * <strong>What should be included in metadata?</strong> *
 <strong>What terms should be used in descriptions?</strong></p>
 <div id="exercise-1-what-to-include---discussion-5-minutes" class="callout challenge">
@@ -1551,7 +1553,7 @@ elements?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Some typical elements are:</p>
 <ul>
@@ -1579,20 +1581,33 @@ statistical tests used, seed for randomisation</li>
 <hr class="half-width">
 <p>For many assay methods and experiment types, there are defined
 recommendations and guidelines called <strong>Minimal Information
-Standards</strong>.</p>
+Standards (MIS)</strong>.</p>
 <p>The minimum information standard is a set of guidelines for reporting
-data derived by relevant methods in biosciences. If followed, it ensures
-that the data can be easily verified, analysed and clearly interpreted
-by the wider scientific community. Keeping with these recommendations
-also facilitates the foundation of structuralized databases, public
-repositories and development of data analysis tools.</p>
-<p>Individual minimum information standards are brought by the
-communities of cross-disciplinary specialists focused on issues of the
-specific method used in experimental biology.</p>
-<p>Minimum Information for Biological and Biomedical Investigations <a href="https://fairsharing.org/collection/MIBBI" class="external-link">(MIBBI)</a> is the
-collection of the most known standards.</p>
-<p><img src="./fig/02-MinimumInformationStandarts.png" alt="Minimum information standards" class="figure"> Figure. Some of the MIBBI minimum
-information standards from fairsharing.org</p>
+data derived by relevant methods in the biosciences. Following these
+guidelines ensures that the data can be easily:</p>
+<ul>
+<li><strong>Verified</strong></li>
+<li><strong>Analyzed</strong></li>
+<li>
+<strong>Clearly interpreted</strong> by the wider scientific
+community.</li>
+</ul>
+<p>Adhering to these recommendations also facilitates the foundation
+of:</p>
+<ul>
+<li>Structured databases</li>
+<li>Public repositories</li>
+<li>Development of data analysis tools</li>
+</ul>
+<p>Individual minimum information standards are developed by communities
+of cross-disciplinary specialists focused on specific methods used in
+experimental biology.</p>
+<p><strong>Minimum Information for Biological and Biomedical
+Investigations (MIBBI)</strong> <a href="https://fairsharing.org/collection/MIBBI" class="external-link">MIBBI</a> is the
+collection of the most well-known standards.</p>
+<p><img src="./fig/02-MinimumInformationStandarts.png" alt="Minimum information standards" class="figure"><br>
+Figure. Some of the MIBBI minimum information standards from
+fairsharing.org</p>
 <p><a href="https://fairsharing.org/standards/" class="external-link">FAIRSharing</a> offers
 excellent search service for finding standards</p>
 <div id="exercise-2-minimal-information-standard-example-5-min" class="callout challenge">
@@ -1604,10 +1619,11 @@ excellent search service for finding standards</p>
 example (5 min)<a class="anchor" aria-label="anchor" href="#exercise-2-minimal-information-standard-example-5-min"></a>
 </h3>
 <div class="callout-content">
-<p>Look at <strong><em>Minimum Information about a Neuroscience
-Investigation (MINI) Electrophysiology</em></strong> <a href="https://www.nature.com/articles/npre.2008.1720.1.pdf" class="external-link">Gibson, F.
-et al. Nat Prec (2008)</a>. which contains recommendations for reporting
-the use of electrophysiology in a neuroscience study.<br>
+<p>Look at the document titled “<strong>Minimum Information About a
+Neuroscience Investigation (MINI) Electrophysiology</strong>” (Gibson,
+F. et al. Nat Prec (2008): <a href="https://www.nature.com/articles/npre.2008.1720.1.pdf" class="external-link">https://www.nature.com/articles/npre.2008.1720.1.pdf</a>),
+which contains recommendations for reporting the use of
+electrophysiology in a neuroscience study.<br>
 (<em>Neuroscience (or neurobiology) is the scientific study of the
 nervous system</em>).</p>
 <p>Scroll to <em>Reporting requirement</em> and decide which of the
@@ -1631,7 +1647,7 @@ points 1-8 are:</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>Possible answers:</p>
 <ul>
@@ -1653,13 +1669,13 @@ points 1-8 are:</p>
 </h2>
 <hr class="half-width">
 <p>Metadata provides extremely valuable information for us and others to
-be able to interpret, process, reuse and reproduce the research data it
+be able to interpret, process, reuse, and reproduce the research data it
 accompanies.</p>
-<p>Because metadata are data about data, all of the FAIR principles i.e.
-Findable, Accessible, Interoperable and Reusable apply to metadata.</p>
-<p>Ideally, metadata should not only be machine-readable, but also
-interoperable so that they can interlink or be reasoned about by
-computer systems.</p>
+<p>Since metadata is data about data, all of the FAIR principles
+(Findable, Accessible, Interoperable, and Reusable) apply to it.</p>
+<p>Ideally, metadata should be not only machine-readable but also
+interoperable so that computer systems can interlink or reason about
+it.</p>
 </section><section id="attribution"><h2 class="section-heading">Attribution<a class="anchor" aria-label="anchor" href="#attribution"></a>
 </h2>
 <hr class="half-width">
