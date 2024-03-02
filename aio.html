@@ -1553,7 +1553,7 @@ elements?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Some typical elements are:</p>
 <ul>
@@ -1647,7 +1647,7 @@ points 1-8 are:</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Possible answers:</p>
 <ul>
@@ -1712,7 +1712,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-03-data-in-excel"><p>Content from <a href="03-data-in-excel.html">(Meta)data in Excel</a></p>
 <hr>
-<p>Last updated on 2024-02-29 |
+<p>Last updated on 2024-03-02 |
         
         <a href="https://github.com/BioRDM/fair-for-busy-biologists/edit/main/episodes/03-data-in-excel.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1737,7 +1737,7 @@ any links that you are not going to use.
 <h3 class="card-title">Objectives</h3>
 <ul>
 <li>Do’s and don’ts in Excel</li>
-<li>How good table organization can helps to re-use data</li>
+<li>Understand how good table organization aids data reusability.</li>
 </ul>
 </div>
 </div>
@@ -1745,14 +1745,13 @@ any links that you are not going to use.
 </div>
 </div>
 <p>(2 min teaching)</p>
-<p>Tables are one of the best forms of storing and representing
-information. That is why we find them almost everywhere, from a menu in
-a restaurant, a bank statement, to professional databases. No surprise
-then that we biologists love tables and we tend to predominantly use
-Excel.</p>
-<p>Excel is easy to use, flexible and powerful, however, it often gives
-us too much freedom which leads to bad practices and difficult to re-use
-data and metadata.</p>
+<p>Tables are a powerful and ubiquitous tool for storing and presenting
+information. We encounter them everywhere, from restaurant menus and
+bank statements to scientific databases. As biologists, we heavily rely
+on tables, often utilizing spreadsheets like Excel.</p>
+<p>Excel offers ease of use, flexibility, and power. However, this very
+freedom can lead to bad practices that hinder data and metadata
+reusability.</p>
 <div id="exercise-1-what-can-go-wrong-with-data-in-excel-5-min" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
@@ -1764,23 +1763,22 @@ Excel (5 min)<a class="anchor" aria-label="anchor" href="#exercise-1-what-can-go
 <div class="callout-content">
 <p>Have a look at the example <a href="./files/04-bad-metadata.xlsx">data-file</a> in Excel.</p>
 <figure><img src="./fig/bad-metadata.png" alt="bad-metadata" class="figure mx-auto d-block"><div class="figcaption">bad-metadata</div>
-</figure><p>This example is similar to the presented data before from experiments
-on plants in different light conditions. Imagine you need to work with
-this file.</p>
+</figure><p>This data resembles plant experiment results under various light
+conditions. Imagine you’re tasked with working on this file.</p>
 <ol style="list-style-type: decimal">
-<li>What do you find confusing?</li>
-<li>What would you try to clarify with the author before doing anything
-with the file?</li>
-<li>What will be the issues with calculation of: average biomas, biomas
-per genotype?</li>
-<li>Typically, more advanced data analysis is done programmatically,
-which requires either conversion to text format as csv, tsv format or
-using a library that reads Excel files and “kind of makes this
-conversion on the fly”. Save this file in a text format, close Excel and
-reopen the saved files. What has changed?</li>
+<li>What aspects of this table appear confusing?</li>
+<li>What clarifications would you seek from the original author before
+using this data?</li>
+<li>How would calculating average biomass or biomass per genotype be
+problematic with this format?</li>
+<li>Advanced data analysis often involves programmatic manipulation.
+This requires converting the data to a text format like CSV or TSV, or
+using libraries that can “read and convert Excel files on the fly.” Save
+this file in a text format, close Excel, and then reopen the saved file.
+What changes occur?</li>
 </ol>
-<p>Have you seen similar tables? Do you believe this example is
-realistic and replicates real-life issues?</p>
+<p>Have you encountered similar tables in your experience? Do you
+believe this example realistically reflects common issues?</p>
 </div>
 </div>
 </div>
@@ -1808,19 +1806,19 @@ missing/inconsistent?</li>
 <li><em>calculations</em></li>
 </ol>
 <ul>
-<li>Before averaging the biomas weight, they need to get converted the
-same unit and the text needs to get replaced by the unit.</li>
-<li>Averaging per genotype needs manual selection of suitable
-entries</li>
+<li>Biomass weights must be in the same unit before averaging. Any text
+entries need to be replaced with the appropriate value.</li>
+<li>Averaging biomass per genotype requires manually selecting relevant
+entries.</li>
 </ul>
 <ol start="4" style="list-style-type: decimal">
 <li><em>saving to txt</em></li>
 </ol>
 <ul>
-<li>Information about light conditions is completely lost.</li>
-<li>Header columns are scrambled.</li>
-<li>The update date may change its meaning depending on the location
-(switch year with day).</li>
+<li>Information about light conditions is entirely lost.</li>
+<li>Header column order might be scrambled.</li>
+<li>The update date format may change meaning depending on location
+(e.g., switching year and day order).</li>
 </ul>
 </div>
 </div>
@@ -1833,17 +1831,17 @@ entries</li>
 <h3 id="using-multiple-tables">
 <a name="tables"></a> 1. Using multiple tables<a class="anchor" aria-label="anchor" href="#using-multiple-tables"></a>
 </h3>
-<p>Multiple data tables within one spreadsheet confuse both human and
-computers.</p>
+<p>Multiple data tables within one spreadsheet can confuse both humans
+and computers:</p>
 <ul>
-<li>For humans they prompt finding associations where they are not
+<li>For humans, they can prompt finding associations where they are not
 present.</li>
-<li>For computers each spreadsheet row typically is treated as one
+<li>For computers, each spreadsheet row is typically treated as one
 observation.</li>
 </ul>
-<p>And you are potentially using the same field name in multiple
+<p>Additionally, you may potentially use the same field name in multiple
 places.</p>
-<p>In our example both column A and K named <code>sample</code>
+<p>In our example, both column A and K named <code>sample</code>
 represent different information, and values in row 6 from both parts are
 not related.</p>
 </div>
@@ -1851,42 +1849,41 @@ not related.</p>
 <h3 id="using-multiple-tabs">
 <a name="tabs"></a> 2. Using multiple tabs<a class="anchor" aria-label="anchor" href="#using-multiple-tabs"></a>
 </h3>
-<p>That seems like an easy way to organize data, right? Well, yes and
-no.</p>
+<p>Using multiple tabs might seem like an easy way to organize data, but
+it has its drawbacks:</p>
 <ul>
-<li>tabs make it more difficult to do programmatic analysis</li>
-<li>tabs can be ignored (under the radar) when opening files, for
-example the recently used tab is shown first, other user may not notice
-that there are many other tabs before it (we have seen it a lot when
-importing data)</li>
+<li>Tabs make it more difficult to perform programmatic analysis.</li>
+<li>Tabs can be ignored (under the radar) when opening files. For
+example, the recently used tab is shown first, and other users may not
+notice that there are many other tabs before it (we have seen this
+happen frequently when importing data).</li>
 </ul>
 <p>However,</p>
 <ul>
-<li>tabs seems like a perfect place to add administrative, descriptive
-metadata so they are next to data while not “polluting” the data
+<li>Tabs seem like a perfect place to add administrative, descriptive
+metadata so they are next to data without “polluting” the data
 table.</li>
-<li>having secondary data next to primary in subsequent tabs permits
+<li>Having secondary data next to primary in subsequent tabs permits
 easy inspection of all without a need to always send a collection of
 files.</li>
 </ul>
-<p>Our recommendation: use with caution; the more automatic analysis you
-do, the less frequently you should use tabs.</p>
+<p>Our recommendation: Use tabs with caution; the more automatic
+analysis you do, the less frequently you should use tabs.</p>
 </div>
 <div class="section level3">
 <h3 id="not-filling-in-zeros">
 <a name="zeros"></a> 3. Not filling in zeros<a class="anchor" aria-label="anchor" href="#not-filling-in-zeros"></a>
 </h3>
-<p>It might be that when you’re measuring something, it’s usually a
-zero, say the number of times a rabbit is observed in the survey. Why
-bother writing in the number zero in that column, when it’s mostly
+<p>You might think that when you’re measuring something and it’s usually
+a zero, like the number of times a rabbit is observed in a survey, why
+bother writing in the number zero in that column when it’s mostly
 zeros?</p>
 <p>However, there’s a difference between a zero and a blank cell in a
-spreadsheet. To the computer, a zero is actually data. You measured or
-counted it. A blank cell means that it wasn’t measured and the computer
-will interpret it as an unknown value (otherwise known as a null
-value).</p>
-<p>The spreadsheets or statistical programs will likely mis-interpret
-blank cells that you intend to be zeros.</p>
+spreadsheet. To the computer, a zero is data - you measured or counted
+it. A blank cell means that it wasn’t measured, and the computer will
+interpret it as an unknown value (otherwise known as a null value).</p>
+<p>Spreadsheets or statistical programs will likely misinterpret blank
+cells that you intend to be zeros.</p>
 <p>Because of this, it’s very important to record zeros as zeros and
 truly missing data as nulls.</p>
 </div>
@@ -1894,12 +1891,12 @@ truly missing data as nulls.</p>
 <h3 id="using-problematic-null-values">
 <a name="null"></a> 4. Using problematic null values<a class="anchor" aria-label="anchor" href="#using-problematic-null-values"></a>
 </h3>
-<p>Example: using -999 or -1 or 0 (other numerical values) to represent
-missing data.</p>
-<p>Other times different null values are used to convey different
-reasons why the data isn’t there. For example, -1 not recorded, -2
-contamination etc.</p>
-<p>This is important information to capture, but is in effect using one
+<p>For example: using -999, -1, or 0 (other numerical values) to
+represent missing data.</p>
+<p>Other times, different null values are used to convey different
+reasons why the data isn’t there. For example, -1 for not recorded, -2
+for contamination, etc.</p>
+<p>This is important information to capture, but effectively uses one
 column to capture two pieces (real values and comment or status). It
 would be good here to create a new column like ‘data_missing’ and use
 that column to capture the different reasons.</p>
@@ -1910,7 +1907,7 @@ values.</p>
 <p>It is essential to use a clearly defined and consistent null
 indicator. Blanks (most applications) and NA (for R) are good
 choices.</p>
-<p>White et al, 2013, explain good choices for indicating null values
+<p>White et al. (2013) explain good choices for indicating null values
 for different software applications in their article: <a href="https://peerj.com/preprints/7/" class="external-link">Nine simple ways to make it easier
 to (re)use your data.</a> Ideas in Ecology and Evolution.</p>
 <figure><img src="./fig/null_values_table_1.jpg" alt="White et al." class="figure mx-auto d-block"><div class="figcaption">White et al.</div>
@@ -1921,15 +1918,15 @@ to (re)use your data.</a> Ideas in Ecology and Evolution.</p>
 <a name="formatting"></a> 5. Using formatting to convey information
 organizing data<a class="anchor" aria-label="anchor" href="#using-formatting-to-convey-information-organizing-data"></a>
 </h3>
-<p>Never highlight cells, rows or columns that should be excluded from
+<p>Never highlight cells, rows, or columns that should be excluded from
 an analysis, or to mark particular properties/conditions.</p>
-<p>In our example file information about light conditions is only
+<p>In our example file, information about light conditions is only
 encoded as a color. Formatting information is not available to analysis
 software and almost certainly will be lost during processing.</p>
-<p>All the information should be encoded as a field value, for example
+<p>All the information should be encoded as a field value, for example,
 in columns like:<br>
 condition, calibrated,<br>
-validated, omitted etc.</p>
+validated, omitted, etc.</p>
 <p>You can still use colors/fonts to help with readability (just make
 sure they help and don’t distract) but no information should be lost if
 data is exported to plain text.</p>
@@ -2243,16 +2240,16 @@ including SEPT4 (now SEPTIN4) and MARCH1 (now MARCHF1).</p>
 </section><section id="handling-dates"><h2 class="section-heading">Handling dates<a class="anchor" aria-label="anchor" href="#handling-dates"></a>
 </h2>
 <hr class="half-width">
-<p>Storing and handling dates is generally problematic even in
-programming languages, as we tend to use dates in various formats and
-those formats are region specific.</p>
-<p>Have you ever got confused by a meeting date from an American
+<p>Storing and handling dates can be problematic, even in programming
+languages, as we often encounter dates in various formats that are
+region-specific.</p>
+<p>Have you ever been confused by a meeting date from an American
 collaborator?</p>
-<p>If the dates are “real” data, for example sample collection from a
-patient or field measurement, preventing misinterpretations is crucial.
-There are two safe options:</p>
+<p>When dealing with dates that represent “real” data, such as sample
+collection from a patient or field measurements, preventing
+misinterpretations is crucial. There are two safe options:</p>
 <div class="section level4">
-<h4 id="store-dates-in-3-columns-for-year-month-and-day">Store dates in 3 columns for year, month and day:<a class="anchor" aria-label="anchor" href="#store-dates-in-3-columns-for-year-month-and-day"></a>
+<h4 id="store-dates-in-three-columns-for-year-month-and-day">Store dates in three columns for year, month, and day:<a class="anchor" aria-label="anchor" href="#store-dates-in-three-columns-for-year-month-and-day"></a>
 </h4>
 <table class="table">
 <thead><tr class="header">
@@ -2277,36 +2274,36 @@ There are two safe options:</p>
 <div class="section level4">
 <h4 id="or-store-the-date-as-an-iso-string">Or store the date as an <a href="https://en.wikipedia.org/wiki/ISO_8601" class="external-link">ISO</a> string:<a class="anchor" aria-label="anchor" href="#or-store-the-date-as-an-iso-string"></a>
 </h4>
-<p><code>YYYYMMDD</code> e.g. <code>20210316</code><br><code>YYYY-MM-DD</code> e.g. <code>2021-03-16</code></p>
-<p>Even though, normally <code>YYYY-MM-DD</code> format is preferred, it
-will be sadly reformatted by Excel according to your locale when saving
-to text like .csv!</p>
-<p>When using text files (.csv, .tsv), You should always document what
+<p><code>YYYYMMDD</code> e.g., <code>20210316</code><br><code>YYYY-MM-DD</code> e.g., <code>2021-03-16</code></p>
+<p>Even though the <code>YYYY-MM-DD</code> format is normally preferred,
+it may unfortunately be reformatted by Excel according to your locale
+when saving to text like .csv!</p>
+<p>When using text files (.csv, .tsv), you should always document the
 format you are using to represent dates.</p>
 <div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="to-use-or-not-to-use-excel">To use or not to use Excel<a class="anchor" aria-label="anchor" href="#to-use-or-not-to-use-excel"></a>
+<h3 class="callout-title" id="to-use-or-not-to-use-excel">To Use or Not to Use Excel<a class="anchor" aria-label="anchor" href="#to-use-or-not-to-use-excel"></a>
 </h3>
 <div class="callout-content">
-<p>The Excel file format <code>.xlsx</code> is now open, widely used and
-supported by external libraries and thus it could be considered
-interoperable. Nowadays it is admissible as being FAIR.</p>
-<p>However, plain text files like comma or tab separated values (.csv,
+<p>The Excel file format <code>.xlsx</code> is now open, widely used,
+and supported by external libraries, making it considered interoperable.
+Nowadays, it is admissible as being FAIR.</p>
+<p>However, plain text files like comma or tab-separated values (.csv,
 .tsv) can be accessed without any special software. Data in a CSV file
-can also easily be imported into other formats and environments, such as
+can also be easily imported into other formats and environments, such as
 SQLite and R. We are not tied to a certain version of a certain
 expensive program when we work with CSV files, so it is a good format to
-work with for maximum portability, interoperability and endurance.</p>
+work with for maximum portability, interoperability, and endurance.</p>
 <p>If such files are handled only with text editors or programmatically
-(R, Python) then they are a safer option as they prevent the
+(R, Python), then they are a safer option as they prevent the
 autoformatting issues described before.</p>
-<p>If you analyse your data with R or Python, or you know that your data
-are meant to be processed that way you should be using text formats
+<p>If you analyze your data with R or Python, or you know that your data
+are meant to be processed that way, you should be using text formats
 whenever possible, and as soon as you capture your data.</p>
-<p>However, if you are used to only use Excel and so does your
+<p>However, if you are used to only using Excel and so does your
 community, just keep using it. Just be aware of the possible pitfalls
 discussed, especially when working with gene or protein names and
 accession numbers.</p>
@@ -2321,18 +2318,29 @@ accession numbers.</p>
 <h3 class="callout-title" id="cleaning-data-with-open-refine">Cleaning data with Open Refine<a class="anchor" aria-label="anchor" href="#cleaning-data-with-open-refine"></a>
 </h3>
 <div class="callout-content">
-<p>There are tools that help you to clean and reorganize existing
-data.</p>
-<p><a href="https://openrefine.org/" class="external-link">OpenRefine</a> is a powerful tool
-for working with messy data: cleaning it; transforming it from one
-format into another; and extending it with web services and external
-data.</p>
-<p>With OpenRefine you can find and merge synonyms like:
-<code>E. Coli</code>, <code>EColi</code>, <code>Escherichia coli</code>
-into one, or split values in the <code>Name</code> field into
-<code>FirstName</code> and <code>LastName</code>.</p>
-<p>There is a carpentry course available: <a href="https://datacarpentry.org/OpenRefine-ecology-lesson/" class="external-link">Data
-Cleaning with OpenRefine for Ecologists</a></p>
+<p>Data cleaning and reorganization can be time-consuming, but there are
+tools to make it easier.</p>
+<p><a href="https://openrefine.org/" class="external-link">OpenRefine</a> is a powerful option
+for tackling messy data. It can:</p>
+<ul>
+<li>Clean your data: Remove errors and inconsistencies.</li>
+<li>Transform your data: Convert it between different formats.</li>
+<li>Extend your data: Enrich it with web services and external
+sources.</li>
+</ul>
+<p>OpenRefine lets you tackle common data quality issues. For example,
+you can:</p>
+<ul>
+<li>Merge synonyms: Standardize terms like <code>"E. Coli"</code>,
+<code>"EColi"</code>, and <code>"Escherichia coli"</code> into a single
+term.</li>
+<li>Split values: Separate entries in a <code>"Name"</code> field into
+separate <code>"FirstName"</code> and <code>"LastName"</code>
+fields.</li>
+</ul>
+<p><strong>Want to learn more?</strong></p>
+<p>Check out this carpentry course specifically designed for ecologists:
+<strong>Data Cleaning with OpenRefine for Ecologists: <a href="https://datacarpentry.org/OpenRefine-ecology-lesson/" class="external-link">https://datacarpentry.org/OpenRefine-ecology-lesson/</a></strong></p>
 </div>
 </div>
 </div>
@@ -2537,7 +2545,7 @@ conventions?</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ul>
 <li>Using dates up front makes it difficult to quickly find data for
@@ -2647,7 +2655,7 @@ the best to the presented recommendations:</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <ul>
 <li>1 b)</li>
@@ -2690,7 +2698,7 @@ Hint: think of other files that could be present as well.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>The first strategies, can work very well if the project has only few
 files, so all of them can quickly be accessed (no need to change
@@ -2784,7 +2792,7 @@ d) are for more wet/biological projects.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4">Show me the solution</h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <p>Firstly, the root directory contains a README file that provides an
 overview of the project as a whole, a CITATION file that explains how to
@@ -2826,7 +2834,7 @@ samples at the same conditions.</p>
   <h3 class="accordion-header" id="headingSpoiler1">
 <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>(Optional) Good enough practices for scientific computing recommendations</h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
 <div class="accordion-body">
 <p>The <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510#sec009" class="external-link">Good
 enough practices in scientific computing</a> paper makes the following
@@ -3124,7 +3132,7 @@ graph and outputs of statistical testing have been generated.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>If you followed all steps correctly you should have reproduced the
 table, a graph and statistical testing. Apart from the pre-filled
@@ -3220,7 +3228,7 @@ long-days</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>## Solution The following code will result in your new graph:</p>
 <pre><code><span>    <span class="fu">ggplot</span><span class="op">(</span><span class="fu">subset</span><span class="op">(</span><span class="va">df</span>, <span class="va">light_condition</span> <span class="op">%in%</span> <span class="st">"LD"</span><span class="op">)</span>, </span>
@@ -3278,7 +3286,7 @@ your Notebook then and compare)</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>It is important all code is run before the notebook is downloaded, as
 during download only the text and graphs are saved that are currently
@@ -3948,7 +3956,7 @@ management:</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ul>
 <li>Try to find out about all the actions you were not familiar
@@ -3978,7 +3986,7 @@ actions you are going to take after this course?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>Some good actions to take:</p>
 <ul>
