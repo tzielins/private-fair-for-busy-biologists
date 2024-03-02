@@ -9,17 +9,17 @@ exercises: 20
 - What is Open Science?
 - How can I benefit from Open Science?
 - What are the FAIR guidelines?
-- Why being FAIR matters?
+- Why is being FAIR important?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Identify parts of the Open Science movement, their goals and motivations
-- Explain the main benefits of Open Science
-- Recognize the barriers and risks in the adoption of Open Science practices
-- Recognize typical issues that prevent data re-use
-- Understand the FAIR principles
+- Identify the components of the Open Science movement, their goals, and motivations.
+- Explain the key benefits of Open Science.
+- Recognize the barriers and challenges associated with adopting Open Science practices.
+- Identify common issues that hinder data reusability.
+- Understand the FAIR principles.
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
@@ -28,33 +28,26 @@ exercises: 20
 
 (16 min teaching)
 
-Science works best by exchanging ideas and building on them. Most efficient science involves both questions and
-experiments being made as fully informed as possible, which requires the free exchange of data and information.
+Science thrives on the exchange and development of ideas. The most efficient scientific progress involves well-informed questions and experiments, which necessitates the free exchange of data and information.
 
-All practices that make knowledge and data **freely available** fall under the umbrella-term of **Open Science/Open
-Research**. It makes science **more reproducible, transparent, and accessible**. As science becomes more open, the way
-we conduct and communicate science changes continuously.
+All practices that make knowledge and data **freely available** fall under the umbrella term of **Open Science/Open Research**. It fosters greater **reproducibility, transparency, and accessibility** in science. As science becomes more open, the way we conduct and communicate scientific findings continuously evolves.
 
 ::::::::::::::::::::::::::::::::::::: callout
 
 ## What is Open Science
 
-Open science is the movement to make scientific research (including publications, data, physical samples, and software)
-and its dissemination **accessible to all levels** of an inquiring society,
-amateur or professional.
+Open science is the movement to make scientific research (including publications, data, physical samples, and software) and its dissemination **accessible to all levels** of an inquiring society, amateur or professional.
 
-Open Science represents a new approach to the scientific process based on **cooperative work**
-and new ways of diffusing knowledge by **using digital technologies** and new collaborative tools.
+Open Science represents a new approach to the scientific process based on **collaborative work** and utilizing **digital technologies** and new collaborative tools to disseminate knowledge.
 
-Open science is **transparent and accessible knowledge**
-that is shared and developed through collaborative networks.
+Open science promotes **transparent and accessible knowledge** that is shared and developed through collaborative networks.
 
 Characteristics:
 
-* Using web-based tools to facilitate information exchange and scientific collaboration
-* Transparency in experimental methodology, observation, and collection of data
-* Public availability and reusability of scientific data, methods and communications
-* various outputs and audiences
+* Utilizing web-based tools to facilitate information exchange and scientific collaboration
+* Transparency in experimental methodology, observations, and data collection
+* Public availability and reusability of scientific data, methods, and communications
+* Diverse outputs and target audiences
 
 :::::::::::::::::::::::::::::::::::::::::::::
 
@@ -63,145 +56,117 @@ Characteristics:
 ### What is the Open Science movement?
 
 
-The distribution of knowledge has always been subject to improvement.
-Whilst the internet was initially developed for
-military purposes, it was hijacked for communication between scientists, which provided a viable route to change the
-dissemination of science.
+The distribution of knowledge has always had room for improvement. While the internet was initially developed for military purposes, it was ultimately used for communication between scientists, providing a viable path to transform how science is disseminated.
 
-The momentum has built up with a change in the way science is communicated to reflect what
-research communities are calling for – solutions to the majority of problems (e.g. impact factors, data reusability,
-reproducibility crisis, trust in the public science sector etc...) that we face today.
+The momentum has grown alongside a shift in how science is communicated, reflecting the needs of research communities. Open Science addresses many of the pressing issues we face today, such as impact factors, data reusability, the reproducibility crisis, and trust in the public science sector.
 
-Open Science is the movement to increase transparency and reproducibility of research, through using
-the open best practices.
+Open Science is the movement to increase transparency and reproducibility of research through the adoption of open best practices.
 
 
-![Figure 1. Open Science Building Blocks](../fig/OpenScienceBuildingBlocks.jpg)
+![Figure 1. Open Science Building Blocks](./fig/OpenScienceBuildingBlocks.jpg)
 
 *After [Gema Bueno de la Fuente](https://www.fosteropenscience.eu/content/what-open-science-introduction)*
 
 ### Open Science Building Blocks
 
-* **Open Access:** Research outputs hosted in a way that make them accessible for everyone. Traditionally Open Access
-  referred to journal articles, but now includes books, chapters or images.
+* **Open Access:** Research outputs are hosted in a way that makes them accessible to everyone. Traditionally, Open Access referred to journal articles, but now encompasses books, chapters, or images.
 
-* **Open Data:** Data freely and readily available to access, reuse, and share.
-  Smaller data sets were often accessible as
-  supplemental materials by journals alongside articles themselves.
-  However, they should be hosted in dedicated platforms for
-  more convenient and better access.
+* **Open Data:** Data is freely and readily available to access, reuse, and share. Smaller data sets were often included as supplemental materials alongside articles in journals. However, they should be hosted on dedicated platforms for more convenient and improved access.
 
-* **Open Software:** Software where the source code is made readily available;
-  others are free to use, change, and
-  share. Some examples of these including the coding language and supporting software R and RStudio,
-  as well as image analysis software such as Fiji/ImageJ.
+* **Open Software:** Software with readily available source code; others can freely use, modify, and share it. Examples include the coding language and supporting software R and RStudio, as well as image analysis software like Fiji/ImageJ.
 
-* **Open Notebooks:** Lab & notebooks hosted online, readily accessible to all. These are popular among some of the
-  large funding bodies and allow anyone to comment on any stage of the experimental record.
+* **Open Notebooks:** Lab notebooks hosted online, readily accessible to all. These are popular among some large funding bodies and allow anyone to comment on any stage of the experimental record.
 
-* **Open Peer Review:** A system where peer review reports are published alongside the body of work. This can include
-  reviewers' reports, correspondence between parties involved, rebuttals, editorial decisions etc...
-  
-* **Citizens Science:** Lay people become involved in scientific research, most commonly in data collection or image analysis. Platforms such as [zooniverse.org](https://www.zooniverse.org/) help connect projects with lay people interested in playing an active role in research, which  can help generate and/or process data which would otherwise be unachievable by one single person.
+* **Open Peer Review:** A system where peer review reports are published alongside the research work. This can include reviewers' reports, correspondence between involved parties, rebuttals, editorial decisions, etc.
 
-* **Scientific social networks:** Networks of researchers, which often meet locally in teams, but are also connected online, foster open discussions on scientific issues. Online, many people commonly use traditional social media platforms for this, such as Twitter, Instagram, various sub-reddits, discussion channels on Slack/Discord etc..., although there are also more dedicated spaces such as [researchgate.net](https://www.researchgate.net/).
+* **Citizen Science:** Lay people contribute to scientific research, most commonly in data collection or image analysis. Platforms like [https://www.zooniverse.org/](https://www.zooniverse.org/) connect projects with interested laypeople who can actively participate in research, helping to generate and/or process data that would be unachievable by a single person. 
 
-* **Open Education resources:** Educational materials that are free for anyone to access and use to learn from. These can be anything from talks, instructional videos, and explanations posted on video hosting websites (e.g. YouTube), to entire digital textbooks written and then published freely online. 
+* **Scientific social networks:** Networks of researchers, often meeting locally in teams but also connected online, foster open discussions on scientific issues. Many researchers use traditional social media platforms for this purpose, such as Twitter, Instagram, various subreddits, discussion channels on Slack/Discord, etc. There are also dedicated spaces like [https://www.researchgate.net/](https://www.researchgate.net/).
 
+* **Open Educational Resources:** Educational materials that are free for anyone to access and use for learning. These can be anything from talks, instructional videos. This very course is a perfect example of that!
 
 ### Benefits of Open Science
 
-Possible benefits and consequences for each OS module:
+Possible benefits and consequences for each Open Science module:
 
 **Open Access**
 
-* speed of knowledge distribution
-* leveling field for underfunded sites which otherwise wouldn’t be able to navigate the paywall
-* prevent articles being paid for ‘thrice’ (first to produce, second to publish, third to access) by institutions.
-* greater access to work by others, increasing chance for exposure & citations
-* access to work by lay audiences, thus increases social exposure of research
+* Faster dissemination of knowledge
+* Levels the playing field for underfunded institutions that wouldn't otherwise be able to access research behind paywalls
+* Prevents articles from being paid for "three times" (first to produce, second to publish, third to access) by institutions
+* Increases access to work by others, leading to greater exposure and citations
+* Provides access to research for laypeople, thus increasing public awareness of science
 
 **Open Data**
 
-* ensures data isn’t lost overtime - reusability
-* acceleration of scientific discovery rate
-* value for money/reduced redundancy
-* permits statistical re-analysis of the data to validate findings
-* gives access to datasets which were not published as papers (e.g. negative results, large screening data sets)
-* provides an avenue to generate new hypotheses
-* permits combination of multiple data sources to address questions, provides greater power than a single data source
+* Ensures data isn't lost over time - promotes reusability
+* Accelerates scientific discovery
+* Provides value for money and reduces redundancy
+* Allows for statistical re-analysis of data to validate findings
+* Gives access to datasets not published in papers (e.g., negative results, large screening data sets)
+* Provides a way to generate new hypotheses
+* Enables the combination of multiple data sources to address questions, providing greater power than a single data source
 
 **Open Software**
 
-* great source to learn programming skills
-* the ability to modify creates a supportive community of users and rapid innovation
-* saves time
-* faster bug fixes
-* better error scrutiny
-* use of the same software/code allows better reproducibility between experiments
-* need funds to maintain and update software
+* Excellent resource for learning programming skills
+* The ability to modify software fosters a supportive community of users and rapid innovation
+* Saves time
+* Enables faster bug fixes
+* Encourages better error scrutiny
+* Using the same software/code allows for better reproducibility between experiments
+* Requires funding to maintain and update software
 
 **Open Notebooks**
 
-* 100% transparent science, allowing input from others at early stages of experiments
-* source of learning about the process of how science is actually conducted
-* allows access to experiments and data which otherwise never get published
-* provides access to ‘negative’ results and failed experiments
-* anyone, anywhere around the world, at any time, can check in on projects, including many users simultaneously
-* possibility of immediate feedback
-* thorough evidence of originality of ideas and experiments, negating effect of ‘scooping’
+* Promotes 100% transparent science, allowing input from others at early stages of experiments
+* Provides a source for learning about the scientific process
+* Allows access to experiments and data that otherwise might never get published
+* Provides access to 'negative' results and failed experiments
+* Anyone, anywhere in the world, can access projects at any time, enabling simultaneous input from many users
+* Offers the possibility of immediate feedback
+* Provides thorough evidence of the originality of ideas and experiments, reducing the impact of "scooping"
 
 **Open Peer Review**
 
-* visibility leads to more constructive reviews
-* mitigates against editorial conflicts of interest and/or biases
-* mitigates against reviewers conflicts of interest and/or biases
-* allows readers to learn/benefit from comments of the reviewers
+* Visibility leads to more constructive reviews
+* Mitigates against editorial conflicts of interest and/or biases
+* Mitigates against reviewer conflicts of interest and/or biases
+* Allows readers to learn and benefit from reviewers' comments
 
 **Open Educational Materials**
 
-* Foster collaboration between educators/others
-* Show clearly how method was taught (e.g. Carpentries materials) which can be reproduces anywhere, anytime
-* protects materials from becoming technologically obsolete
-* authors preparing the material or contribute all earn credit (e.g. GitHub)
-* recycle animations and material that is excellent (why reinvent the wheel?)
+* Fosters collaboration between educators and others
+* Clearly demonstrates how methods are taught (e.g., Carpentries materials), which can be reproduced anywhere, anytime
+* Protects materials from becoming technologically obsolete
+* Authors who prepare or contribute materials can receive credit (e.g., GitHub)
+* Enables the reuse of animations and excellent materials (why reinvent the wheel?)
 
 ### Motivation: Money (8 min teaching)
 
-One has to consider the moral objectives that
-accompany the research/publication process: charities/taxpayers pay to fund research, these then pay again to access the
-research they already funded.
+We must consider the ethical implications that accompany the research and publication process. Charities and taxpayers fund research, and then pay again to access the research they already funded.
 
-From an economic point of view, scientific outputs generated by public research are a public good that everyone should be able to use at no cost.
+From an economic viewpoint, scientific outputs generated by public research are a public good that everyone should be able to use at no cost.
 
-According to EU report ["Cost-benefit analysis for FAIR research data"](https://op.europa.eu/en/publication-detail/-/publication/d375368c-1a0a-11e9-8d04-01aa75ed71a1),
-€10.2bn is lost every year because of not accessible data (plus additional 16bn if accounting for re-use and research quality).
+According to an EU report titled "Cost-benefit analysis for FAIR research data: [https://op.europa.eu/en/publication-detail/-/publication/d375368c-1a0a-11e9-8d04-01aa75ed71a1](https://op.europa.eu/en/publication-detail/-/publication/d375368c-1a0a-11e9-8d04-01aa75ed71a1)", €10.2 billion is lost every year due to inaccessible data (with an additional €16 billion lost if we consider data reuse and research quality).
 
-The goals of Open Science is to make research and research data available to e.g.
-charities/taxpayers who funded this research.
+Open Science aims to make research and research data accessible to those who funded the research, such as charities and taxpayers.
 
-The majority of larger UK and other countries' funding bodies are now making
-Open Access publication conditional upon funding. 
-As the results Open Access is adopted by majority of researcher and is the most proliferated part of the OS movement.
-
+The majority of large funding bodies in the UK and other countries are now making Open Access publication a condition of funding. As a result, Open Access is becoming the most widespread aspect of the Open Science movement, adopted by the majority of researchers.
 
 
 ### Personal motivators
 
-Open Science is advantageous to many parties involved in science (including
-researcher community, funding bodies, the public even journals), which is leading to a push for the widespread adoption of
-Open Science practices.
+Open Science offers advantages to many stakeholders in science (including the research community, funding bodies, the public, and even journals), leading to a push for widespread adoption of Open Science practices.
 
-Large UK funding bodies such as The Wellcome Trust are big supporters of Open Science.
-We can see with the example of Open Access, that once enforced by funders (*the stick*)
-there is a wide adoption. But what about the personal motivators, *the carrots*.
+Large UK funding bodies like The Wellcome Trust are strong supporters of Open Science. The example of Open Access demonstrates that enforcement by funders (*the stick*) can lead to widespread adoption. But what about the personal motivators, *the carrots*?
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
 ## Exercise 1: Personal benefits of being "open" (4 min)
 
-Below are some personal benefits to adopting Open Science practices.
-Read through them which of them are the strongest motivators for you.
+Open Science practices offer a variety of advantages for researchers.  Read through the list below and consider which benefits resonate most with you. 
+
 Select two the most important/attractive for you and mark them with +1,
 select the two least important for you and mark them with 0
 
@@ -222,6 +187,7 @@ select the two least important for you and mark them with 0
 * avoid embarrassment/disaster when you cannot reproduce your results
 
 Can you think of other benefits?
+
 How personal benefits of Open Science compare to the benefits
 for the (scientific) society?
 
@@ -229,59 +195,53 @@ for the (scientific) society?
 
 (3 min teaching)
 
-The main difference between the public benefits of Open Science practices
-and the personal motivators of outputs creators, that the public can
-benefit almost instantly from the open resources.
+Open Science offers distinct advantages for both researchers and society at large. The public benefits from immediate access to research outputs, leading to faster scientific progress and innovation.  
 
-However, the advantages for data creator comes with a delay, typically counted
-in years. For example, building reputation will not happen with one dataset,
-the re-use also will lead to citations/collaboration after the next research
-cycle.
+For researchers, the benefits take longer time, as open data and publications need to time to lead to citations, collaborations, and recognition within the scientific community
 
-### DORA - declaration of Research Assessment
+### DORA: Declaration on Research Assessment
 
-#### Principle of DORA:
+The San Francisco Declaration on Research Assessment (DORA) emphasizes the limitations of using metrics like Journal Impact Factors (JIF) to solely evaluate research. DORA advocates for assessing research based on its inherent merit and contributions, promoting fairer and more transparent evaluation practices. This shift acknowledges the importance of research quality, openness, and its broader societal impact.
 
-The Declaration on Research Assessment (DORA) emerged from a recognition of the limitations and biases associated with journal-based metrics, such as Journal Impact Factors. Motivated by a desire to promote fair and transparent evaluation practices, DORA advocates for assessing research based on its intrinsic merits rather than the venue of publication. Its realization signifies a paradigm shift in how we measure the impact and significance of scholarly work, emphasizing the importance of quality, openness, and broader societal impacts.
+### Funders Embrace DORA Principles
 
-### Adoption of Funders:
+Research funders worldwide are increasingly endorsing DORA principles. Leading institutions like Wellcome Trust and Cancer Research UK incorporate DORA criteria into their funding applications. These funders prioritize research outputs, mentorship contributions, and public engagement plans, supporting research that generates valuable knowledge, fosters collaboration, and benefits society.
 
-Funders worldwide are increasingly recognizing the importance of embracing DORA principles in their assessment criteria. Institutions like Wellcome and Cancer Research UK have led the charge by incorporating DORA principles into their funding applications. By prioritizing factors such as research outputs, contributions to mentorship, and plans for public engagement, these funders are signaling a commitment to supporting research that generates meaningful knowledge, fosters collaborations, and contributes to societal well-being.
 
 ### Narrative CV as a DORA-Compliant Assessment Tool:
 
-The Narrative CV offers a DORA-compliant approach to evaluating researchers, focusing on key dimensions that reflect the principles of DORA:
+The Narrative CV aligns with DORA principles by focusing on key dimensions that reflect a researcher's contributions:
 
 -  Generation of Knowledge: Acknowledging diverse outputs such as datasets, patents, and software.
 -  Development of Individuals and Collaborations: Highlighting mentorship and collaborative endeavors that enrich the research ecosystem.
--  Supporting Broader Society and the Economy: Demonstrating the societal and economic impacts of research beyond academic circles.
+-  Societal and Economic Impact: Demonstrating the societal and economic impacts of research beyond academic circles.
 -  Supporting the Research Community: Engaging in open science practices and ensuring the accessibility of research outputs.
 
-In this assessment framework, special attention is paid to Open Science practices, ensuring that research outputs are openly available to maximize their impact and visibility. Additionally, new metrics such as retweets, online views and downloads, discussions, and presence in mass media and technology platforms are considered to provide a more comprehensive understanding of research impact in today's digital age.
+This framework prioritizes open science practices to maximize research impact and visibility. Additionally, new metrics like retweets, online views/downloads, discussions, and media coverage are considered, providing a more comprehensive understanding of research impact in the digital age.
 
-Embracing Open Practices and adhering to DORA principles not only aligns with ethical research conduct but also enhances the credibility and impact of scholarly work. As evidenced by the Narrative CV and the adoption of DORA principles by leading funders, the research community is moving towards a more transparent and equitable assessment paradigm. Ultimately, the choice to embrace Open Practices is not only a matter of integrity but also a recognition that authenticity and transparency are essential drivers of scientific progress. After all, as timestamps remind us, faking Open Practices is far more challenging than simply adhering to them.
+**Why Embrace Open Practices?**
 
-### Barriers and risks of OS movement:
+Open Science practices not only uphold ethical research conduct but also enhance the credibility and reach of your work. The Narrative CV and the adoption of DORA by leading funders exemplify the research community's shift towards a more transparent and equitable assessment paradigm. Choosing open practices demonstrates not just integrity, but also a recognition that authenticity and transparency are fundamental to scientific progress. After all, timestamps and meticulous documentation make faking open practices far more difficult than simply adhering to them.
+
+
+### Barriers and risks of the Open Science movement:
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
 ## Exercise 2: Why we are not doing Open Science already (4 min)
 
-Discuss Open Science barriers, mention the reasons for not already being open:
+Discuss the challenges and potential drawbacks associated with Open Science practices.
 
 
 :::::::::::::::::::::::: solution
 
- - sensitive data (anonymising data from administrative health records can be difficult)
- - IP
- - sensitive data
- - lack of expertise
- - the costs in $ and in time
- - novelty of data
- - lack of confidence (the fear of critics)
- - misuse (fake news)
- - it is not mandatory
- - lack of credit (publishing negative results is of little benefit to you)
+* **Data Sensitivity:**  Anonymizing data from certain sources, like administrative health records, can be complex and time-consuming.
+* **Intellectual Property (IP) Concerns:** Researchers might hesitate to share data if it could compromise potential patents or other intellectual property.
+* **Misuse of Data:**  Open data carries a risk of misinterpretation or misuse, potentially leading to the spread of misinformation (e.g., "fake news").
+* **Lack of Recognition for Negative Results:**  Publishing negative or inconclusive findings can be less rewarding in the current academic evaluation system. 
+* **Time and Cost:**  Making research outputs open and user-friendly requires time and resources for proper data curation, storage, and dissemination. This can be especially challenging for large datasets.
+* **Lack of Expertise:**  Researchers might not have the necessary skills or training to effectively manage and share data openly. 
+* **Fear of Criticism:**  The prospect of open peer review or public scrutiny can be daunting, leading some researchers to shy away from open science practices.
 
 ::::::::::::::::::::::::
 
@@ -289,65 +249,55 @@ Discuss Open Science barriers, mention the reasons for not already being open:
 
 (9 min teaching)
 
-It may seem obvious that we should adopt open science practices, but there are associated challenges with doing so.
+There are valid reasons why some researchers hesitate to embrace Open Science entirely.
 
-Sensitivity of data is sometimes considered a barrier.
-Shared data needs to be compliant with data privacy laws, leading
-many to shy away from hosting it publicly. Anonymising data to desensitise it can help overcome this barrier.
+**Data sensitivity** is a major concern. Data privacy laws require careful handling of sensitive data, and anonymization can be a complex process. 
 
-The potential for intellectual property on research can dissuade some from adopting open practices. Again, much can be
-shared if the data is filtered carefully to protect anything relating to intellectual property. 
+Anonymising data to desensitise it can help overcome this barrier.
 
-Another risk could be seen with work on Covid19: pre-prints.
-A manuscript hosted publicly prior to peer review, may
-accelerate access to knowledge, but can also be misused and/or misunderstood. This can result in political and health
+**Intellectual property (IP) considerations** are another hurdle. Researchers may be hesitant to share data that could compromise the patenting or commercialization of their discoveries. However, careful data filtering can often address these concerns. For IP protection it is the timeline of public disclosure that matters not fact making them public.
+
+**Pre-prints**, while valuable for rapid knowledge dissemination, can be misused, particularly in fast-moving fields like public health research. Unreviewed pre-prints have the potential to mislead policymakers and the public if not interpreted with caution. This can result in political and health
 decision making based on faulty data, which is counter to societies’ best interest.
 
-One concern is that opening up ones
-data to the scientific community can lead to the identification of errors, which may lead to feelings of
-embarrassment. However, this could be considered an upside - we should seek for our work to be scrutinized and errors to
+The fear of negative feedback can also be a barrier. However, open peer review is a crucial part of the scientific process. Identifying and correcting errors through open review strengthens research and fosters a culture of transparency.
+
+We should seek for our work to be scrutinized and errors to
 be pointed out, and is the sign of a competent scientist.
 One should rather have errors pointed out rather than risking
 that irreproducible data might cause
 even more embarrassment and disaster.
 
+Lack of Expertise: Researchers might not have the necessary skills or training to effectively manage and share data openly.
+
 One of **the biggest barriers are the costs** involved in "being Open".
-Firstly, making outputs readily available and usable to others takes time
-and significant effort. Secondly, there are costs of hosting and storage.
+The **time and financial investment** required for Open Science practices can be a significant barrier. Making data readily accessible and usable takes effort, and data storage can be expensive, especially for large datasets. 
+
 For example, microscopy datasets reach sizes in terabytes,
 making such data accessible for 10 years involves serious financial commitment.
 
 
 # Being FAIR
 
-We have seen how Open practices can benefit both scientific community as
-a whole and individual practitioner.
-The wide adoption of Open Access principles has resulted in an easy access
-to recent biomedical publications.
-Unfortunately, the same cannot be said about data and software
-that accompanies those publications.
+We've explored the advantages of Open Science practices for both the scientific community and individual researchers. While Open Access has made recent biomedical publications readily available, the same accessibility often isn't the case for the underlying data and software.
 
 ::::::::::::::::::::::::::::::::::::: callout
 
-## What is data
+## What is Data?
 
-Although scientific data is a very broad term, we still encounter
-groups who (wrongly) believe they do not have data!
-Data does not mean Excel files with recorded measurements from a machine.
-Data also includes:
+The term "scientific data" encompasses a wider range than many might initially think. It's not limited to just numbers in spreadsheets! Data can include:
 
-* images, not only from microscopes
-* information about biological materials, like strain or patient details
-* biological models
-* recipes, laboratory and measurement protocols
-* scripts, analysis procedures, and custom software can also be considered data
+* **Images:**  Microscopy images, but also gels, blots, and other visual representations of findings.
+* **Biological Information:**  Details about research materials, like specific strains, cell lines, or patient demographics.
+* **Biological Models:**  Computational models used in simulations or analyses.
+* **Protocols:**  Step-by-step procedures for lab experiments or data collection methods.
+* **Code:**  Scripts, analysis routines, and custom software used to generate results. 
 
-However, there are specific recommendations on how to deal with code.
+While there are specific best practices for sharing code, it's still considered a form of research data.
 
-::::::::::::::::::::::::::::::::::::: 
+:::::::::::::::::::::::::::::::::::::
 
-Let's have a look how challenging it can be to access and use
-data from published biological papers.
+Let's delve into the challenges associated with accessing and using data from published biological research.
 
 ::::::::::::::::::::::::::::::::::::: challenge
 
@@ -420,15 +370,19 @@ Please calculate the average (over genotypes) nitrogen content for the two exper
 
 (29 min teaching)
 
+**The above examples illustrate the typical challenges in accessing research data and software.**
 
-The above examples illustrate the typical challenges in accessing research
-data and software. Firstly, data/protocols/software often do not have an identity
-of their own, but only accompany a publication.
-Second, they are not easily accessible or reusable, for example, all the details are inside one supporting information PDF file. Such file includes "printed" numerical table or even source code, both of which need to be "re-typed" if someone would like to use them. Data are shared in proprietary file format specific to a particular vendor and not accessible if one does not have a particular software that accompanies the equipment. Finally, data files are provided without detailed description
-other than the whole article text.
+Firstly, data, protocols, and software often lack a distinct identity, existing only as supplements to publications. 
+
+Second, accessibility and reusability are often compromised. For instance, all details might be buried within a single supporting information PDF file.  These files often contain "printed" numerical tables or even source code, both of which require manual re-entry for use by others. Additionally, data may be shared in proprietary file formats specific to a particular vendor, inaccessible without the accompanying software. Finally, data files are often provided without detailed descriptions beyond the full article text, hindering reusability.
+
+In our examples, the protocol was difficult to **find** (the loops), **access** (paywall), and **reuse** due to a lack of necessary details (dead-end).  Similarly, in the second example, the data were not **interoperable** or **reusable** as they were only available as a figure graph.
+
+To address these problems, the FAIR principles were designed.
 
 In our examples, the protocol was difficult to **find** (the loops),
 difficult to **access** (pay wall), and not **reusable** as it lacked the necessary details (dead-end).
+
 In the second example the data were not **interoperable** and **reusable**
 as their were only available as a figure graph.
 
@@ -441,35 +395,16 @@ After [SangyaPundir](https://commons.wikimedia.org/wiki/File:FAIR_data_principle
 
 ## FAIR Principles
 
+In 2016, the FAIR Guiding Principles for scientific data management and stewardship: [https://www.nature.com/articles/sdata201618](https://www.nature.com/articles/sdata201618) were published in Scientific Data. The original guideline emphasized "machine-actionability" - the ability of computer systems to automatically process data. However, the focus has shifted towards human-centric accessibility, acknowledging the limitations of user-friendly tools for standardized metadata.
 
- In 2016, the [FAIR Guiding Principles for scientific data management and stewardship](https://www.nature.com/articles/sdata201618)
- were published in Scientific Data.
- The original guideline focused on "machine-actionability" -
- the ability of computer systems to operate on data with
- minimal human intervention. However, now the focus has shifted
- to making data accessible from a human perspective, and not an automated one
- (mostly due to the lack of user friendly tools that could help
- deal with standards and structured metadata).
+**Findable:** Data and metadata should be easily discoverable by both humans and computers. Standardized and persistent identifiers (PIDs) and machine-readable metadata are crucial for automatic dataset and service discovery.
 
- **Findable**:  Easy to find data and metadata for
- both humans and computers.
- Automatic and reliable discovery of datasets and services depends
- on machine-readable persistent identifiers (PIDs) and metadata.
 
- **Accessible**: (Meta)data should be retrievable by their identifier using
- a standardized and open communications protocol (including authentication
- and authorisation). Metadata should be available even when the data
- are no longer available.
+**Accessible:** (Meta)data should be retrievable using a standardized and open communication protocol (including authentication and authorization) based on their identifier.  Even if the data itself becomes unavailable, the metadata should remain accessible.
 
- **Interoperable**: Data should be able to be combined with and used
- with other data or tools. The format of the data should be open and
- interpretable for various tools. It applies both to data and
- metadata, (meta)data should use vocabularies that follow FAIR principles.
+**Interoperable:**  Data should be combinable and usable with other data or tools. Open and interpretable data formats are essential for various tools.  Both data and metadata should utilize vocabularies that follow FAIR principles to promote interoperability.
 
- **Re-usable**: FAIR aims at optimizing the reuse of data.
- Metadata and data should be well-described so that they can be replicated
- and/or combined in different settings. The reuse of (meta)data
- should be stated with clear and accessible license(s).
+**Reusable:** FAIR aims to optimize data reuse. Well-described metadata and data facilitate replication and integration in different contexts. Clear and accessible licenses should be provided to govern (meta)data reuse.
 
 :::::::::::::::::::::::::::::::::::::
 
@@ -477,19 +412,18 @@ After [SangyaPundir](https://commons.wikimedia.org/wiki/File:FAIR_data_principle
 
 #### Findable & Accessible
 
-Deposit data to an external, reputable public repository.
+Deposit your data in a reputable external public repository. 
 
-Repositories provide persistent identifiers (PIDs), catalogue options,
-advanced metadata searching, and download statistics. Some repositories can also host private data or provide embargo periods, meaning access to all data can be delayed.
+These repositories provide persistent identifiers (PIDs) for easy discovery, along with options for cataloging, advanced metadata searching, and download statistics. Some repositories can even host private data or offer embargo periods to delay full data access.
 
-There are general "data agnostic" repositories, for example:
+**General "data agnostic" repositories include:**
 
 * [Dryad](http://datadryad.org),
 * [Zenodo](http://zenodo.org),
 * [FigShare](http://figshare.com),
 * [Dataverse](http://thedata.org).
 
-Or domain specific, for example:
+*Domain-specific examples include:**
 
 * [UniProt](https://www.uniprot.org/) protein data,
 * [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) sequence data,
@@ -502,31 +436,20 @@ Or domain specific, for example:
 
 ## What are persistent identifiers (PIDs)
 
- A persistent identifier is a long-lasting reference to a digital resource.
- Typically it has two components:
+A persistent identifier (PID) is a long-lasting reference to a digital resource. It typically consists of two parts:
 
- * a service that locates the resource over time even when its location changes
- * and a unique identifier (that distinguishes the resource or concept from others).
+* A service that locates the resource over time, even if its location changes.
+* A unique identifier that distinguishes the resource or concept from others.
 
- Persistent identifiers aim to solve the problem of the persistence of accessing cited resource,
- particularly in the field of academic literature. All too often, web addresses (links) changes over time
- and fail to take you to the referenced resource you expected.
+PIDs address the problem of accessing cited resources, particularly in academic literature, where web addresses (links) often change over time, leading to broken links.
 
- There are several services and technologies (schemes) that provide PIDs
- for objects (whether digital, physical or abstract).
- One of the most popular is **Digital Object Identifier [(DOI)](https://www.doi.org/)**,
- recognizable by the prefix doi.org in the web links.
- For example: [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
- resolves to the location of the paper that describes FAIR principles.
+Several services and technologies (schemes) provide PIDs for various objects (digital, physical, or abstract). One of the most common is the Digital Object Identifier (DOI) ([https://www.doi.org/](https://www.doi.org/)), recognizable by the prefix "doi.org" in web links. For instance, this link ([https://pubmed.ncbi.nlm.nih.gov/26978244/](https://pubmed.ncbi.nlm.nih.gov/26978244/)) resolves to the paper that describes FAIR principles.
 
- Public repositories often maintain web addresses of their content in a stable form
- which follow the convention http://repository.adress/identifier;
- these are often called permalinks.
- For well establish services, permalinks can be treated as PIDs.
+Public repositories often maintain stable web addresses for their content, following the convention `http://repository.address/identifier`. These are often called permalinks. For well-established services, permalinks can be considered PIDs.
 
- For example: [http://identifiers.org/SO:0000167](http://identifiers.org/SO:0000167) resolves to a page
- defining promoter role, and can be used to annotate part of a DNA sequence
- as performing such a role during transcription.
+For example, this link [http://identifiers.org/SO:0000167](http://identifiers.org/SO:0000167) points to a page defining the promoter role and can be used to annotate a DNA sequence performing such a role during transcription.
+
+
 
 
 
@@ -534,58 +457,48 @@ Or domain specific, for example:
 
 #### Interoperable
 
-* Use common/free file formats (can be domain specific)
-* Always use .csv or .xls files for numerical data. **Never** share data tables as word or pdf,
-* Provide underlying numerical data for all plots and graphs
-* Convert proprietary binary formats to the open ones.
-  For example
- convert Snapgene to Genbank, microscopy multistack images to OME-TIFF
+* Use common and ideally free file formats (domain-specific options might exist).
+* Always use `.csv` or `.xls`  for numerical data. **Never** share data tables as Word or PDF documents.
+* Provide the underlying numerical data for all plots and graphs.
+* Convert proprietary binary formats to open formats. For example, convert Snapgene to GenBank, or microscopy multistack images to OME-TIFF.
+
 
 #### Reusable
 
-1. Describe your data well / provide good metadata
+Describe your data well with comprehensive metadata.
 
- * write README file describing the data
- * user descriptive column headers for the data tables
- * tidy data tables, make them analysis friendly
- * provide as many details as possible (prepare good metadata)
- * use (meta)data formats (e.g. SBML, SBOL)
- * follow Minimum Information Standards
+* Write a README file that describes your data.
+* Use descriptive column headers in your data tables.
+* Organize your data tables for analysis-friendliness (tidy data principles).
+* Provide as much detail as possible through rich metadata.
+* Utilize appropriate metadata formats (e.g., SBML, SBOL).
+* Adhere to Minimum Information Standards (MIS) for your field.
 
-*Describing data in sufficient details is the most challenging part of the data sharing process.
-We will cover this in more detail later on.*
+Describing data in sufficient detail is often the most challenging aspect of data sharing. We'll cover this in more detail later.
 
 
-2. Attach license files.
+2. Include license files.
 
-Licenses explicitly declare conditions and terms by which data and software can be re-used.
-Here, we recommend:
+Licenses explicitly state the conditions and terms under which your data and software can be reused. Here are some recommendations:
 
-  * for data [Creative Commons Attribution (CC BY)](https://creativecommons.org/licenses/by/4.0/)
-license,
-  * for code a permissive open source license such
-as the [MIT](https://opensource.org/licenses/MIT),
-[BSD](https://opensource.org/licenses/BSD-2-Clause),
-or [Apache license](http://www.apache.org/licenses/).
+* For data, we recommend the [Creative Commons Attribution (CC BY)](https://creativecommons.org/licenses/by/4.0/) license.
+* For code, consider a permissive open-source license such as [MIT](https://opensource.org/licenses/MIT), [BSD](https://opensource.org/licenses/BSD-2-Clause), or Apache [Apache license](http://www.apache.org/licenses/) licenses.
+
+
 
 ::::::::::::::::::::::::::::::::::::: callout
 
 ## Copyright and data
 
- Software code (the text) automatically gets the default
- copyright protection
- which prevents others from copying or modifying it.
- Only by adding the explicit licence you can permit re-use by others.
+Software code (the text itself) automatically receives default copyright protection, preventing others from copying or modifying it. Only by adding an explicit license can you permit others to reuse it.
 
- Data, being factual, cannot be copyrighted. **So why, do we need a license?**
 
- While the data itself cannot be copyrighted,
- the way how it is presented can be. The extend to which it is protected needs ultimately
- to be settled by the court.
+Data, being factual, cannot be copyrighted. **So why, do we need a license?**
 
- The "good actors" will restrain from using your data to avoid "court" risks.
- The "bad actors" will either ignore the risk or can afford the lawyers
- fees.
+While the data itself cannot be copyrighted, the way it's presented can be. The extent to which it's protected ultimately needs to be settled by a court.
+
+"Good actors" will refrain from using your data to avoid legal risks. However, "bad actors" might ignore the risk or have the resources to fight legal battles.
+
 
 ::::::::::::::::::::::::::::::::::::: 
 
@@ -632,42 +545,20 @@ or [Apache license](http://www.apache.org/licenses/).
 
  ## Solution
 
- * Findable data have their own identity, so they can be easily
- cited and secure the credits to the authors
- * Data accessibility over the Internet using standard protocols can be
- easily monitored (for example using Google analytics). This results in metrics
- on data popularity or even geo-locations of data users.
- * Interoperable data can benefit the future you, for example you will be
- able to still read your data even when you no longer have access to the specialized,
- vendor specific software with which you worked with them before.
- Also the future you may not remember abreviations and ad-hoc conventions you used before
- (Intelligible).
- * Well documented data should contain all the details necessary to
- reproduce the experiments, helping the future you or someone taking over
- from you in the laboratory.
- * Saves time and money.
+* **Findable - Citable:** Findable data has a unique identifier, ensuring proper attribution to the creators.
+* **Accessible - Trackable and Countable:** Accessible data allows for monitoring usage statistics (e.g., downloads, user locations) to understand its reach and impact. 
+* **Interoperable - Intelligible:** Interoperable data is understandable not only by current users but also by future users, even if they lack access to the specific software used for analysis. This is achieved through the use of standard formats and clear documentation. The future you may not remember abreviations and ad-hoc conventions you used before
+* **Reusable - Reproducible:** Well-documented data with sufficient detail allows for reproducing the experiments, facilitating verification and building upon existing knowledge. This saves time and resources.
+
 
 
 ## FAIR vs Open Science (3 min teaching)
 
-**FAIR does not mean Open**. Actually, FAIR guideline only requires
-that the metadata record is always accessible.
-For example, the existence of the data can be known (their metadata),
-the data can have easy to use PID to reference them, but the actual
-data files can only be downloaded after the login and authorization.
+**FAIR is not synonymous with Open.** FAIR guidelines primarily require open access to the metadata record, describing the data's existence, a user-friendly PID for reference, and potentially some restrictions on accessing the actual data files (e.g., login required).
 
-However, if data are already in the FAIR form, i.e. accessible over the internet,
-in interoperable format and well documented, then it is almost
-effortless to "open" the dataset and make it available to the whole public.
-The data owner can do it any time when he no longer perceives oppening
-as a risk.
+However, FAIR data is well-positioned for becoming Open data. Since it's already accessible online, uses interoperable formats, and comes with thorough documentation, transitioning to fully open access becomes a relatively simple step whenever the data owner decides it's no longer a risk.
 
-At the same time, Open data which does not follow FAIR guidelines have
-little value. If they are not well described, not in open formats then they
-are not going to be re-used even if they were made "open" by posting them on some
-website.
-
-
+Conversely, Open data lacking FAIR characteristics holds minimal value. Poorly described data in non-standard formats remains unusable even if it's publicly available. 
 
 ::::::::::::::::::::::::::::::::::::: challenge
 
