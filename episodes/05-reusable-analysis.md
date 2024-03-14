@@ -26,16 +26,14 @@ exercises: 30
 ## Reusable Analysis
 (~50 min teaching)
 
-Data analysis and research are an iterative process. Experimental measurements and 
-their analysis will guide next steps within research, e.g. identification of new 
-targets for drug discovery, the invalidation of a target would likely make us switch 
-to a different target for target validation. Or in large data, or omics experiments 
-data is initially explored, analysis method will be adjusted and modified, and so will experimental procedures if adequate results have not been achieved.
 
-This so called ad-hoc analysis will only after several iterations of data exploration, 
-retries, adjustments, and modifications to experimental procedures lead to selection of suitable analysis methods and parameters. One would then conduct statistical validation 
-of results and generate final results and graphs for publications. This process can be difficult to track using conventional methods such as pen + paper and Excel.
+**Data analysis and research are inherently iterative.** 
+Experimental measurements and their subsequent analysis guide the research journey.
+For example, in drug discovery, analyzing initial data might reveal the need to switch targets if a current one proves unsuitable.
+Similarly, with large datasets or omics experiments, initial exploration often necessitates adjustments to analysis methods and, potentially, the experimental procedures themselves.
 
+This "**ad-hoc**" analysis, characterized by repeated exploration, refinement, and adaptation, is crucial for identifying suitable methods and parameters.
+Only after multiple iterations does the process culminate in statistically validated results, ready for presentation in publications with accompanying graphs.  Traditional methods like pen and paper or spreadsheets struggle to effectively track this iterative nature of research.
 
 ## Reusable Computing
 We have previously discussed electronic lab notebooks and their benefit in being FAIR.
@@ -50,38 +48,27 @@ There is a simple solution to this: **Computational notebooks**
 
 ## Computational Notebooks - Jupyter Notebook for FAIR practices
 
-Computational notebooks are essentially laboratory notebooks for scientific computing.
-Instead of pasting DNA gels alongside lab protocols, researchers embed code, data and 
-text to document their computational methods. A free and popular tool that is being
-used across disciplines is **the Jupyter notebook**.
+Just like traditional lab notebooks document experiments, **[Jupyter Notebooks](www.jupyter.org)** serve as digital workspaces for scientific computing. Instead of physical data like DNA gels, researchers can embed code, data visualizations (graphs), and explanations directly within the notebook. This free and popular tool offers several advantages:
 
-[Jupyter](www.jupyter.org) Notebooks are interactive web applications which allow you 
-to type and edit lines of code in the programming languages July (Ju), Python (Py), or R,
-hence it's name Jupyter, and view the output (e.g. graphs or calculations) immediately. 
+* Interactive coding: Jupyter Notebooks allow writing and editing code in various languages like Python, R, or Julia (hence the name "Ju" + "Py" + "ter"). The results (calculations or graphs) appear instantly alongside the code.
+* Integrated Documentation: Code snippets seamlessly blend with explanations, capturing the entire experimental workflow – from setup and analysis to results and visualizations.
+
+**Interactive data exploration**:  Data scientists leverage this format to explore data through an iterative process. They can write code, view the output, modify it, and repeat, fostering an interactive loop between researcher and data.  
 The huge benefit of such notebooks is that source code is mixed with documentation, thus
 explaining experimental setup, analysis, results of tables and plots throughout.
 
-What you need to do is write the code that will analyse our data, and explain 
-the narrative behind the experiment and interpretation of the results. For data 
-scientists, this format can drive exploration via interactive computing. This is an 
-environment in which users execute code, see what happens, modify and repeat in an 
-iterative process between researcher and data, in an ad-hoc way.
+
 As a basic principle Jupyter Notebooks run on a 'kernel' which is responsible in
 execution of the code. Generally this 'kernel' can run on your computer or
 you can use external servers to store and analyse your data. 
 
-Notebooks can also be exported as 
-.pdf and .html files which allow easy sharing of outputs, and other tools such as [nbviewer](https://nbviewer.org/), 
-an open-source service that allows users to render their Jupyter notebooks on GitHub 
-in a web browser without having to install the software or any programming libraries. 
 
+**Sharing and Collaboration**: Notebooks can be exported as PDF or HTML files for easy sharing. Additionally, services like [nbviewer](https://nbviewer.org/) allow rendering notebooks directly on GitHub, eliminating the need for software installation.
 
 To show you how easy it is to work with Jupyter Notebooks, we have 
-created an exercise for you where we will work on "real-life" data 
-from an experiment looking at circadian influence on plants following
-short-day and long-day light exposure. We will create some graphs and 
-test whether there are differences between our genotypes of arabidopsis
-using the language R as an example.
+created an exercise an exercise where you'll explore real-world data from a plant experiment.
+
+We'll analyze the phenotypes of Arabidopsis plants under short and long-day light conditions using R programming as an example. We will create some graphs and test whether there are differences between our genotypes of arabidopsis.
 
    
     The example notebook and data files can be found in instructors folders.  
@@ -273,37 +260,56 @@ The example notebook is extremely well documented to show the good practices whe
 
 
 ## Plotting in R or Python
-Plotting in R or Python is often a natural starting point to learn programming and 
-allows to create more professional scientific plots than those available in Excel.  Additionally, these plots are easier to recreate, and easier to adjust for specific dimensions and journal formatting guidelines. Using code it is very easy to prepare series of figures that follow the same formatting of all their elements.
 
-## Ad-hoc analysis with Jupyter Notebooks
+Both R and Python offer powerful tools for creating scientific plots, making them a natural starting point for many programmers. Compared to Excel, these languages enable the generation of:
 
-Notebook can document entire ad-hoc analysis. It can capture the motivations
-and decisions which lead us to the final results (as the markdown-cells).  
-It contains information about the input data uses, the actual parameters and functions called.  
-It can include intermediate results, adjustment made.  
-It captures all the steps that lead to the final result which can be accompanied with the conclusions. 
+* Professional visualizations: R and Python provide extensive libraries for creating publication-quality plots with a wider range of customization options.
+* Reproducibility: Code-driven plots ensure consistent results and are easier to share and adapt for specific publication requirements.
+* Scalability: Scripting allows for the efficient creation of multiple figures with consistent formatting, saving researchers time and effort.
 
-One thing to keep in mind is that your reusable analysis with Jupyter is only ever 
-as good as your self discipline. Things you want to keep in mind are:
+Key benefits of using code for scientific plots:
 
-* document the entire decision process and motivations behind it
-* document input data
-* document parameters and their significance
-* decide what data you want to retain and clean - annotate why
-* comment your code where necessary
-* follow coding good practices (in naming variables, functions, in code formatting)
-* Notebook has to be shipped with all file inputs and description of runtime environment
+* Customization: Precise control over every plot element (colors, fonts, axes, etc.) ensures adherence to specific journal formatting guidelines.
+* Efficiency: Code facilitates the creation of complex plots or repetitive tasks, streamlining the workflow.
 
-Notebooks are very well suited to:
 
-* orchestrate „short”, step by step operations in R, python, shell (notebooks can use all 3 at the same time)
-* capture parameters
-* add interpretations
-* act as a „flexible” user interface (user can change the runtime parameters in the notebook following the embedded instructions)
+## Capturing the Ad-hoc Analysis Journey
 
-However, notebooks should not be used a replacement of integrated development environment (IDE) and writing modularized, split into packages code.
-They are not suitable to write a long programs, long executable code should be compiled into stand alone modules.
+Jupyter Notebooks excel at documenting the entire **exploratory data analysis (EDA)** process. They capture the rationale and decision-making behind your analysis, serving as a narrative alongside the code. 
+
+**Key benefits of Jupyter Notebooks for EDA:**
+
+* **Comprehensive Documentation:**  Markdown cells allow you to record:
+    * Motivations and thought processes leading to the final results.
+    * Details about input data usage.
+    * Specific parameters and functions employed.
+    * Intermediate results and adjustments made throughout the analysis.
+* **Transparency and Reproducibility:**  By capturing all analytical steps, notebooks promote clear communication and ensure the analysis can be easily replicated.
+
+**Maintaining Clean and Reusable Notebooks:**
+
+While notebooks offer immense advantages, their effectiveness relies on **adherence to best practices**:
+
+* **Meticulous Documentation:** Thoroughly document the decision-making process and the reasoning behind each step.
+* **Data Transparency:** Clearly record details about the input data, including its source and any cleaning procedures applied.
+* **Parameter Clarity:** Document the chosen parameters and their significance in the analysis.
+* **Data Management:**  Strategically decide which data to retain and why, with clear annotations.
+* **Code Clarity:** Employ clear and consistent coding practices, including meaningful variable and function names, and proper code formatting.
+* **Self-Contained Notebooks:** Ensure your notebook is shipped with all necessary file inputs and a comprehensive description of the runtime environment.
+
+**Strengths of Jupyter Notebooks:**
+
+* **Orchestrating Analyses:** Notebooks efficiently manage step-by-step operations in R, Python, or even shell scripting (supporting all three languages simultaneously).
+* **Parameter Management:**  They effectively capture and manage analysis parameters.
+* **Interpretation and Insights:**  Notebooks facilitate the inclusion of interpretations and insights alongside the code, enriching the overall analysis.
+* **Interactive Interface:**  They can function as a dynamic user interface, allowing users to modify parameters directly within the notebook based on the provided instructions.
+
+**Limitations to Consider:**
+
+* **Not a Replacement for IDEs:**  Jupyter Notebooks are not intended to fully replace Integrated Development Environments (IDEs). Complex, modularized code should be written in separate packages.
+* **Unsuitable for Long Programs:**  While notebooks can handle smaller scripts, lengthy executable code is better suited for compilation into standalone modules.
+
+
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::: challenge
