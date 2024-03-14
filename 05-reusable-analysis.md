@@ -331,26 +331,38 @@ pinion to +2 strongly agree:
 ::::::::::::::::::::::::::::::::::::::::::::::: 
 
 ## Computing in R and Python
-Both languages are flexible and easy to start. They permit quickly achieve the desired effect, have things done with minimal setup and lines of codes.
-However, because of their flexibility it is easy to pick up bad habits and write code without much understanding of good practices of software engineering.
 
-For the journey into scientific computing we recommend:
+Here's a revised version of the text about using R and Python for scientific computing:
 
-* Firstly, learn how to make simple plots, clean/reorganize files and data tables
-* Secondly, learn basics of software engineering and good programming practices
-* Then start coding advanced analysis and processing, construct pipelines with workflows
+**Starting Strong in R and Python**
 
-One of the pitfalls of R and Python is that their behaviour depends on libraries installed on your machine, not only R o Python libraries but also the system one.
-It often creates situation in which the code works on one machine but does not work on another.
+While both R and Python are lauded for their flexibility and ease of use, this very characteristic can lead to the development of poor coding habits.  Their accessible nature can tempt users to prioritize quick results over well-structured, maintainable code.
 
-There are ways of dealing with those issues, for example, for Python, there is a package management system called Conda. 
-Conda installs, runs, and updates packages and their dependencies. 
-Conda can switch between project environments, so each project can have its own set of installed libraries and their versions.  
-Conda support many languages (Python, R, Ruby, Lua, Scala, Java, JavaScript, C, C++, FORTRAN) but it is particularly well suited for Python.
+To ensure a smooth journey into scientific computing, we recommend a phased approach:
 
-In our experience, for R renv works better than conda.
+1. **Grasp the Fundamentals:** Begin by mastering the creation of basic plots, data cleaning techniques, and data table manipulation.
+2. **Solidify Software Engineering Principles:**  Next, delve into the core concepts of software engineering and establish best practices for writing clean and maintainable code.
+3. **Progress to Advanced Analysis:**  Once a solid foundation is built,  gradually progress to tackling more complex analytical tasks, constructing data processing pipelines, and crafting comprehensive workflows.
 
-As a rule, despite the package managment system used, you should try to keep track of what libraries you installed during your code development and in what versions.
+**Addressing Environment Inconsistencies:**
+
+A significant challenge with R and Python is their dependence on the specific libraries installed on a user's machine.  Inconsistent library versions or even the presence of system-specific libraries can lead to code that functions perfectly on one machine but fails on another.
+
+**Mitigating Versioning Issues:**
+
+Fortunately, solutions exist to address these environment inconsistencies. Here are two notable examples:
+
+* **Conda (Python):**  This package management system simplifies installation, updates, and dependency management for Python packages. It also facilitates the creation of isolated project environments, ensuring each project utilizes the correct set of libraries and their specific versions. While Conda supports various languages, it is particularly well-suited for Python environments.
+* **renv (R):**  In the realm of R, the `renv` package offers a robust alternative for managing project dependencies.
+
+**Maintaining Transparency:**
+
+Regardless of the chosen package management system, it's crucial to meticulously track the libraries used during code development, including their specific versions. This practice fosters transparency, reproducibility, and simplifies collaboration by ensuring everyone involved has access to the exact software dependencies required to run the code successfully.
+
+This revised version emphasizes the importance of adopting good coding practices from the outset. It outlines a recommended learning path and highlights the challenges  associated with environment inconsistencies. Additionally, it introduces solutions for managing package dependencies effectively. 
+
+
+
 
 
 

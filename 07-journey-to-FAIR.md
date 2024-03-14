@@ -50,36 +50,39 @@ Read through the following activities / practices, type next to each
 ? if you are not completely sure what it stands for
 0 if you only learnt about it at this workshop
 +1 if you adheres / practices it
- 
-* include license with datasets:
-* include license with code / scripts:
-* use git as version control:
-* create DOI for datasets / code:
-* add date availability section to a manuscript:
-* use minimal information standards:
-* use generic data repository:
-* use domain specific data repository:
-* have description templates for various techniques in the lab:
-* store data in a shared, network drive:
-* have an automatic backup solution for files:
-* follow a file naming convention:
-* create standard project folder structure:
-* use Electronic Lab Notebooks:
-* create figures and plots in python/R:
-* select data repository:
-* know non-restrictive licenses:
-* create readme for each dataset:
-* use controlled vocabularies:
-* have ORCID
-* have dedicated folder / database for protocols / SOP
-* have a way to reference different versions of a protocol
-* follow conventions for tidy data tables:
-* use jupyter notebooks or R-markdown:
-* use PID from repositories (eg UniProt, GenBank) in data description:
-* use database for bio-samples / strains etc:
-* can access all group data from your own PC:
-* use tools / resources your organization offers for data management:
-* use support your organization offers for data management:
+
+
+* Include a license with datasets.
+* Include a license with code/scripts.
+* Use Git for version control.
+* Create DOIs for datasets and code.
+* Add a "Date Availability" section to a manuscript.
+* Use minimal information standards.
+* Use a generic data repository. 
+* Use a domain-specific data repository.
+* Develop description templates for various lab techniques.
+* Store data on a shared network drive.
+* Implement an automatic backup solution for files.
+* Follow a consistent file naming convention.
+* Create a standard project folder structure.
+* Use electronic lab notebooks.
+* Create figures and plots in Python or R.
+* Select a data repository.
+* Be familiar with non-restrictive licenses.
+* Create a README file for each dataset.
+* Utilize controlled vocabularies.
+* Obtain an ORCID identifier.
+* Maintain a dedicated folder or database for protocols and SOPs.
+* Establish a system for referencing different versions of protocols.
+* Adhere to conventions for tidy data tables.**
+* Use Jupyter Notebooks or R Markdown.
+* Include PIDs (e.g., UniProt, GenBank) in the data description.
+* Use a database for biosamples, strains, etc.
+* Grant yourself access to all group data from your personal computer (optional).
+* Utilize the data management tools and resources offered by your organization.
+* Seek support from your organization for data management.
+
+
 
 ::::::::::::::::::::::::::::::::: solution
 
@@ -119,7 +122,8 @@ Some good actions to take:
 
 ## Resources
 
- 
+The full version of this course: [FAIR in (bio) practice](https://carpentries-incubator.github.io/fair-bio-practice/)
+
 The BioRDM team has a lot of materials on their [BioRDM wiki](https://www.wiki.ed.ac.uk/display/RDMS/).
  
 Practical recipes and interactive guides:
