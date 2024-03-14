@@ -200,7 +200,7 @@
 efforts</a></li>
 <li><a href="#easy-sharing-of-your-notebook">Easy sharing of your notebook</a></li>
 <li><a href="#plotting-in-r-or-python">Plotting in R or Python</a></li>
-<li><a href="#ad-hoc-analysis-with-jupyter-notebooks">Ad-hoc analysis with Jupyter Notebooks</a></li>
+<li><a href="#capturing-the-ad-hoc-analysis-journey">Capturing the Ad-hoc Analysis Journey</a></li>
 <li><a href="#computing-in-r-and-python">Computing in R and Python</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
@@ -284,7 +284,7 @@ efforts</a></li>
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Reusable analysis</h1>
-        <p>Last updated on 2024-02-29 |
+        <p>Last updated on 2024-03-14 |
         
         <a href="https://github.com/BioRDM/fair-for-busy-biologists/edit/main/episodes/05-reusable-analysis.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -324,20 +324,20 @@ efforts</a></li>
 <hr><section id="reusable-analysis"><h2 class="section-heading">Reusable Analysis<a class="anchor" aria-label="anchor" href="#reusable-analysis"></a>
 </h2>
 <hr class="half-width"><p>(~50 min teaching)</p>
-<p>Data analysis and research are an iterative process. Experimental
-measurements and their analysis will guide next steps within research,
-e.g. identification of new targets for drug discovery, the invalidation
-of a target would likely make us switch to a different target for target
-validation. Or in large data, or omics experiments data is initially
-explored, analysis method will be adjusted and modified, and so will
-experimental procedures if adequate results have not been achieved.</p>
-<p>This so called ad-hoc analysis will only after several iterations of
-data exploration, retries, adjustments, and modifications to
-experimental procedures lead to selection of suitable analysis methods
-and parameters. One would then conduct statistical validation of results
-and generate final results and graphs for publications. This process can
-be difficult to track using conventional methods such as pen + paper and
-Excel.</p>
+<p><strong>Data analysis and research are inherently iterative.</strong>
+Experimental measurements and their subsequent analysis guide the
+research journey. For example, in drug discovery, analyzing initial data
+might reveal the need to switch targets if a current one proves
+unsuitable. Similarly, with large datasets or omics experiments, initial
+exploration often necessitates adjustments to analysis methods and,
+potentially, the experimental procedures themselves.</p>
+<p>This “<strong>ad-hoc</strong>” analysis, characterized by repeated
+exploration, refinement, and adaptation, is crucial for identifying
+suitable methods and parameters. Only after multiple iterations does the
+process culminate in statistically validated results, ready for
+presentation in publications with accompanying graphs. Traditional
+methods like pen and paper or spreadsheets struggle to effectively track
+this iterative nature of research.</p>
 </section><section id="reusable-computing"><h2 class="section-heading">Reusable Computing<a class="anchor" aria-label="anchor" href="#reusable-computing"></a>
 </h2>
 <hr class="half-width"><p>We have previously discussed electronic lab notebooks and their
@@ -351,38 +351,39 @@ which figure and why you changed your code last time.</p>
 notebooks</strong></p>
 </section><section id="computational-notebooks---jupyter-notebook-for-fair-practices"><h2 class="section-heading">Computational Notebooks - Jupyter Notebook for FAIR practices<a class="anchor" aria-label="anchor" href="#computational-notebooks---jupyter-notebook-for-fair-practices"></a>
 </h2>
-<hr class="half-width"><p>Computational notebooks are essentially laboratory notebooks for
-scientific computing. Instead of pasting DNA gels alongside lab
-protocols, researchers embed code, data and text to document their
-computational methods. A free and popular tool that is being used across
-disciplines is <strong>the Jupyter notebook</strong>.</p>
-<p><a href="www.jupyter.org">Jupyter</a> Notebooks are interactive web
-applications which allow you to type and edit lines of code in the
-programming languages July (Ju), Python (Py), or R, hence it’s name
-Jupyter, and view the output (e.g. graphs or calculations) immediately.
+<hr class="half-width"><p>Just like traditional lab notebooks document experiments, <strong><a href="www.jupyter.org">Jupyter Notebooks</a></strong> serve as digital
+workspaces for scientific computing. Instead of physical data like DNA
+gels, researchers can embed code, data visualizations (graphs), and
+explanations directly within the notebook. This free and popular tool
+offers several advantages:</p>
+<ul><li>Interactive coding: Jupyter Notebooks allow writing and editing code
+in various languages like Python, R, or Julia (hence the name “Ju” +
+“Py” + “ter”). The results (calculations or graphs) appear instantly
+alongside the code.</li>
+<li>Integrated Documentation: Code snippets seamlessly blend with
+explanations, capturing the entire experimental workflow – from setup
+and analysis to results and visualizations.</li>
+</ul><p><strong>Interactive data exploration</strong>: Data scientists
+leverage this format to explore data through an iterative process. They
+can write code, view the output, modify it, and repeat, fostering an
+interactive loop between researcher and data.<br>
 The huge benefit of such notebooks is that source code is mixed with
 documentation, thus explaining experimental setup, analysis, results of
 tables and plots throughout.</p>
-<p>What you need to do is write the code that will analyse our data, and
-explain the narrative behind the experiment and interpretation of the
-results. For data scientists, this format can drive exploration via
-interactive computing. This is an environment in which users execute
-code, see what happens, modify and repeat in an iterative process
-between researcher and data, in an ad-hoc way. As a basic principle
-Jupyter Notebooks run on a ‘kernel’ which is responsible in execution of
-the code. Generally this ‘kernel’ can run on your computer or you can
-use external servers to store and analyse your data.</p>
-<p>Notebooks can also be exported as .pdf and .html files which allow
-easy sharing of outputs, and other tools such as <a href="https://nbviewer.org/" class="external-link">nbviewer</a>, an open-source service that
-allows users to render their Jupyter notebooks on GitHub in a web
-browser without having to install the software or any programming
-libraries.</p>
+<p>As a basic principle Jupyter Notebooks run on a ‘kernel’ which is
+responsible in execution of the code. Generally this ‘kernel’ can run on
+your computer or you can use external servers to store and analyse your
+data.</p>
+<p><strong>Sharing and Collaboration</strong>: Notebooks can be exported
+as PDF or HTML files for easy sharing. Additionally, services like <a href="https://nbviewer.org/" class="external-link">nbviewer</a> allow rendering notebooks
+directly on GitHub, eliminating the need for software installation.</p>
 <p>To show you how easy it is to work with Jupyter Notebooks, we have
-created an exercise for you where we will work on “real-life” data from
-an experiment looking at circadian influence on plants following
-short-day and long-day light exposure. We will create some graphs and
-test whether there are differences between our genotypes of arabidopsis
-using the language R as an example.</p>
+created an exercise an exercise where you’ll explore real-world data
+from a plant experiment.</p>
+<p>We’ll analyze the phenotypes of Arabidopsis plants under short and
+long-day light conditions using R programming as an example. We will
+create some graphs and test whether there are differences between our
+genotypes of arabidopsis.</p>
 <div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">SH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
@@ -603,46 +604,94 @@ practices when coding. Without such level of comments and explanations
 it may not be possible for new-commers to re-use this notebook.</p>
 </section><section id="plotting-in-r-or-python"><h2 class="section-heading">Plotting in R or Python<a class="anchor" aria-label="anchor" href="#plotting-in-r-or-python"></a>
 </h2>
-<hr class="half-width"><p>Plotting in R or Python is often a natural starting point to learn
-programming and allows to create more professional scientific plots than
-those available in Excel. Additionally, these plots are easier to
-recreate, and easier to adjust for specific dimensions and journal
-formatting guidelines. Using code it is very easy to prepare series of
-figures that follow the same formatting of all their elements.</p>
-</section><section id="ad-hoc-analysis-with-jupyter-notebooks"><h2 class="section-heading">Ad-hoc analysis with Jupyter Notebooks<a class="anchor" aria-label="anchor" href="#ad-hoc-analysis-with-jupyter-notebooks"></a>
+<hr class="half-width"><p>Both R and Python offer powerful tools for creating scientific plots,
+making them a natural starting point for many programmers. Compared to
+Excel, these languages enable the generation of:</p>
+<ul><li>Professional visualizations: R and Python provide extensive
+libraries for creating publication-quality plots with a wider range of
+customization options.</li>
+<li>Reproducibility: Code-driven plots ensure consistent results and are
+easier to share and adapt for specific publication requirements.</li>
+<li>Scalability: Scripting allows for the efficient creation of multiple
+figures with consistent formatting, saving researchers time and
+effort.</li>
+</ul><p>Key benefits of using code for scientific plots:</p>
+<ul><li>Customization: Precise control over every plot element (colors,
+fonts, axes, etc.) ensures adherence to specific journal formatting
+guidelines.</li>
+<li>Efficiency: Code facilitates the creation of complex plots or
+repetitive tasks, streamlining the workflow.</li>
+</ul></section><section id="capturing-the-ad-hoc-analysis-journey"><h2 class="section-heading">Capturing the Ad-hoc Analysis Journey<a class="anchor" aria-label="anchor" href="#capturing-the-ad-hoc-analysis-journey"></a>
 </h2>
-<hr class="half-width"><p>Notebook can document entire ad-hoc analysis. It can capture the
-motivations and decisions which lead us to the final results (as the
-markdown-cells).<br>
-It contains information about the input data uses, the actual parameters
-and functions called.<br>
-It can include intermediate results, adjustment made.<br>
-It captures all the steps that lead to the final result which can be
-accompanied with the conclusions.</p>
-<p>One thing to keep in mind is that your reusable analysis with Jupyter
-is only ever as good as your self discipline. Things you want to keep in
-mind are:</p>
-<ul><li>document the entire decision process and motivations behind it</li>
-<li>document input data</li>
-<li>document parameters and their significance</li>
-<li>decide what data you want to retain and clean - annotate why</li>
-<li>comment your code where necessary</li>
-<li>follow coding good practices (in naming variables, functions, in
-code formatting)</li>
-<li>Notebook has to be shipped with all file inputs and description of
-runtime environment</li>
-</ul><p>Notebooks are very well suited to:</p>
-<ul><li>orchestrate „short”, step by step operations in R, python, shell
-(notebooks can use all 3 at the same time)</li>
-<li>capture parameters</li>
-<li>add interpretations</li>
-<li>act as a „flexible” user interface (user can change the runtime
-parameters in the notebook following the embedded instructions)</li>
-</ul><p>However, notebooks should not be used a replacement of integrated
-development environment (IDE) and writing modularized, split into
-packages code. They are not suitable to write a long programs, long
-executable code should be compiled into stand alone modules.</p>
-<div id="exercise-5-accessibility-of-jupyter-notebooks-5-min" class="callout discussion">
+<hr class="half-width"><p>Jupyter Notebooks excel at documenting the entire <strong>exploratory
+data analysis (EDA)</strong> process. They capture the rationale and
+decision-making behind your analysis, serving as a narrative alongside
+the code.</p>
+<p><strong>Key benefits of Jupyter Notebooks for EDA:</strong></p>
+<ul><li>
+<strong>Comprehensive Documentation:</strong> Markdown cells allow
+you to record:
+<ul><li>Motivations and thought processes leading to the final results.</li>
+<li>Details about input data usage.</li>
+<li>Specific parameters and functions employed.</li>
+<li>Intermediate results and adjustments made throughout the
+analysis.</li>
+</ul></li>
+<li>
+<strong>Transparency and Reproducibility:</strong> By capturing all
+analytical steps, notebooks promote clear communication and ensure the
+analysis can be easily replicated.</li>
+</ul><p><strong>Maintaining Clean and Reusable Notebooks:</strong></p>
+<p>While notebooks offer immense advantages, their effectiveness relies
+on <strong>adherence to best practices</strong>:</p>
+<ul><li>
+<strong>Meticulous Documentation:</strong> Thoroughly document the
+decision-making process and the reasoning behind each step.</li>
+<li>
+<strong>Data Transparency:</strong> Clearly record details about the
+input data, including its source and any cleaning procedures
+applied.</li>
+<li>
+<strong>Parameter Clarity:</strong> Document the chosen parameters
+and their significance in the analysis.</li>
+<li>
+<strong>Data Management:</strong> Strategically decide which data to
+retain and why, with clear annotations.</li>
+<li>
+<strong>Code Clarity:</strong> Employ clear and consistent coding
+practices, including meaningful variable and function names, and proper
+code formatting.</li>
+<li>
+<strong>Self-Contained Notebooks:</strong> Ensure your notebook is
+shipped with all necessary file inputs and a comprehensive description
+of the runtime environment.</li>
+</ul><p><strong>Strengths of Jupyter Notebooks:</strong></p>
+<ul><li>
+<strong>Orchestrating Analyses:</strong> Notebooks efficiently
+manage step-by-step operations in R, Python, or even shell scripting
+(supporting all three languages simultaneously).</li>
+<li>
+<strong>Parameter Management:</strong> They effectively capture and
+manage analysis parameters.</li>
+<li>
+<strong>Interpretation and Insights:</strong> Notebooks facilitate
+the inclusion of interpretations and insights alongside the code,
+enriching the overall analysis.</li>
+<li>
+<strong>Interactive Interface:</strong> They can function as a
+dynamic user interface, allowing users to modify parameters directly
+within the notebook based on the provided instructions.</li>
+</ul><p><strong>Limitations to Consider:</strong></p>
+<ul><li>
+<strong>Not a Replacement for IDEs:</strong> Jupyter Notebooks are
+not intended to fully replace Integrated Development Environments
+(IDEs). Complex, modularized code should be written in separate
+packages.</li>
+<li>
+<strong>Unsuitable for Long Programs:</strong> While notebooks can
+handle smaller scripts, lengthy executable code is better suited for
+compilation into standalone modules.</li>
+</ul><div id="exercise-5-accessibility-of-jupyter-notebooks-5-min" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
@@ -710,12 +759,13 @@ development and in what versions.</p>
 <span id="cb5-3"><a href="#cb5-3" tabindex="-1"></a></span>
 <span id="cb5-4"><a href="#cb5-4" tabindex="-1"></a> <span class="ex">*</span> [Why Jupyter is a data scientists<span class="st">' computational notebook of choice](https://doi.org/10.1038/d41586-018-07196-1)</span></span></code></pre>
 </div>
-<div id="callout1" class="callout">
+<div id="further-reading" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="further-reading">Further Reading<a class="anchor" aria-label="anchor" href="#further-reading"></a></h3>
+<div id="further-reading" class="callout-inner">
+<h3 class="callout-title">Further Reading<a class="anchor" aria-label="anchor" href="#further-reading"></a>
+</h3>
 <div class="callout-content">
 <ul><li><a href="https://reproducible-analysis-workshop.readthedocs.io/en/latest/4.Jupyter-Notebook.html" class="external-link">Reproducible
 analysis and Research Transparency</a></li>
@@ -781,7 +831,7 @@ any links that you are not going to use.
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.2" class="external-link">sandpaper (0.16.2)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.4" class="external-link">pegboard (0.7.4)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.1" class="external-link">varnish (1.0.1)</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.3" class="external-link">sandpaper (0.16.3)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.4" class="external-link">pegboard (0.7.4)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.1" class="external-link">varnish (1.0.1)</a></p>
 			</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">
@@ -802,9 +852,9 @@ any links that you are not going to use.
   "creativeWorkStatus": "active",
   "url": "https://BioRDM.github.io/fair-for-busy-biologists/05-reusable-analysis.html",
   "identifier": "https://BioRDM.github.io/fair-for-busy-biologists/05-reusable-analysis.html",
-  "dateCreated": "2024-03-02",
-  "dateModified": "2024-02-29",
-  "datePublished": "2024-03-12"
+  "dateCreated": "2024-03-14",
+  "dateModified": "2024-03-14",
+  "datePublished": "2024-03-14"
 }
 
   </script><script>
