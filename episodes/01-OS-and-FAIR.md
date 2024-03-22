@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Open Science and FAIR principles"
 teaching: 35
-exercises: 20
+exercises: 35
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
@@ -26,7 +26,7 @@ exercises: 20
 
 
 
-(16 min teaching)
+(10 min teaching)
 
 Science thrives on the exchange and development of ideas. The most efficient scientific progress involves well-informed questions and experiments, which necessitates the free exchange of data and information.
 
@@ -163,7 +163,7 @@ Large UK funding bodies like The Wellcome Trust are strong supporters of Open Sc
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Exercise 1: Personal benefits of being "open" (4 min)
+## Exercise 1: Personal benefits of being "open" (5 min)
 
 Open Science practices offer a variety of advantages for researchers.  Read through the list below and consider which benefits resonate most with you. 
 
@@ -193,7 +193,7 @@ for the (scientific) society?
 
 :::::::::::::::::::::::::::::::::::::
 
-(3 min teaching)
+(5 min teaching)
 
 Open Science offers distinct advantages for both researchers and society at large. The public benefits from immediate access to research outputs, leading to faster scientific progress and innovation.  
 
@@ -228,7 +228,7 @@ Open Science practices not only uphold ethical research conduct but also enhance
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Exercise 2: Why we are not doing Open Science already (4 min)
+## Exercise 2: Why we are not doing Open Science already (about 5 min)
 
 Discuss the challenges and potential drawbacks associated with Open Science practices.
 
@@ -247,7 +247,7 @@ Discuss the challenges and potential drawbacks associated with Open Science prac
 
 :::::::::::::::::::::::::::::::::::::
 
-(9 min teaching)
+(8 min teaching)
 
 There are valid reasons why some researchers hesitate to embrace Open Science entirely.
 
@@ -301,7 +301,8 @@ Let's delve into the challenges associated with accessing and using data from pu
 
 ::::::::::::::::::::::::::::::::::::: challenge
 
-## Exercise 3: Impossible protocol (4 min)
+## Exercise 3: Impossible protocol 
+(5 min breakout, plus 10 talking about both problems)
 
 You need to do a western blot to identify Titin proteins,
 the largest proteins in the body, with a molecular weight of 3,800 kDa.
@@ -368,7 +369,7 @@ Please calculate the average (over genotypes) nitrogen content for the two exper
 :::::::::::::::::::::::::::::::::::::
 
 
-(29 min teaching)
+
 
 **The above examples illustrate the typical challenges in accessing research data and software.**
 
@@ -390,6 +391,9 @@ To avoid such problems FAIR principles were designed.
 
 ![Figure 2. FAIR principles](./fig/FAIR.png)
 After [SangyaPundir](https://commons.wikimedia.org/wiki/File:FAIR_data_principles.jpg)
+
+
+(10 min teaching)
 
 ::::::::::::::::::::::::::::::::::::: callout
 
@@ -505,7 +509,8 @@ While the data itself cannot be copyrighted, the way it's presented can be. The 
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Exercise 4: Example of FAIR data (4 min)
+## Exercise 4: Example of FAIR data 
+(5 min breakout, plus 3 min showing answers)
 
  Zenodo is general data repository. 
  Have a look at the dataset record with COVID-19 data:
@@ -533,7 +538,6 @@ While the data itself cannot be copyrighted, the way it's presented can be. The 
 
 
 
-## FAIR and You (3 min)
 
 
  The FAIR acronym is sometimes accompanied with the following labels:
@@ -543,8 +547,6 @@ While the data itself cannot be copyrighted, the way it's presented can be. The 
  * Reusable - Reproducible
 
 
- ## Solution
-
 * **Findable - Citable:** Findable data has a unique identifier, ensuring proper attribution to the creators.
 * **Accessible - Trackable and Countable:** Accessible data allows for monitoring usage statistics (e.g., downloads, user locations) to understand its reach and impact. 
 * **Interoperable - Intelligible:** Interoperable data is understandable not only by current users but also by future users, even if they lack access to the specific software used for analysis. This is achieved through the use of standard formats and clear documentation. The future you may not remember abreviations and ad-hoc conventions you used before
@@ -552,7 +554,7 @@ While the data itself cannot be copyrighted, the way it's presented can be. The 
 
 
 
-## FAIR vs Open Science (3 min teaching)
+## FAIR vs Open Science (2 min teaching)
 
 **FAIR is not synonymous with Open.** FAIR guidelines primarily require open access to the metadata record, describing the data's existence, a user-friendly PID for reference, and potentially some restrictions on accessing the actual data files (e.g., login required).
 
@@ -562,7 +564,7 @@ Conversely, Open data lacking FAIR characteristics holds minimal value. Poorly d
 
 ::::::::::::::::::::::::::::::::::::: challenge
 
-## Open Science and FAIR Quiz (5 min + runs over break)
+## Open Science and FAIR Quiz (5 min)
 
  Which of the following statements about the OS and FAIR are true/false?
 
