@@ -1,6 +1,6 @@
 ---
 title: "(Meta)data in Excel"
-teaching: 17
+teaching: 20
 exercises: 16
 ---
 
