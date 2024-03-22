@@ -1,6 +1,6 @@
 ---
 title: Journey to be FAIR
-teaching: 5
+teaching: 10
 exercises: 10
 ---
 
