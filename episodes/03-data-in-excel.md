@@ -1,7 +1,7 @@
 ---
 title: "(Meta)data in Excel"
-teaching: 40
-exercises: 15
+teaching: 17
+exercises: 16
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
@@ -18,7 +18,7 @@ exercises: 15
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-(2 min teaching)
+(10 min teaching if 1st exc skipped and done as demo)
 
 Tables are a powerful and ubiquitous tool for storing and presenting information. We encounter them everywhere, from restaurant menus and bank statements to scientific databases. As biologists, we heavily rely on tables, often utilizing spreadsheets like Excel.
 
@@ -30,6 +30,8 @@ Excel offers ease of use, flexibility, and power. However, this very freedom can
 ::::::::::::: challenge
 
 ## Exercise 1: What can go wrong with data in Excel (5 min)
+We suggest the instuctor to go through problems, instead
+
 
  Have a look at the example [data-file](./files/04-bad-metadata.xlsx) in Excel.
 
@@ -267,7 +269,8 @@ Title   |  Starch content in Arabidopis T. under different light conditions
 ```
 
 ::::::::::::: challenge
-## Exercise 2: Spotting problems (4 min)
+## Exercise 2: Spotting problems 
+(5 min + 4 talking)
 
  Look at the following rows and columns in the problematic table:
 
@@ -308,7 +311,7 @@ Title   |  Starch content in Arabidopis T. under different light conditions
 ::::::::::::: 
 
 
-## Clean data tables make life easier (6 min teaching)
+## Clean data tables make life easier (2 min teaching)
 
 
  Let's check the cleaned version of the previous [file](./files/04-better-metadata.xlsx).
@@ -323,7 +326,7 @@ Title   |  Starch content in Arabidopis T. under different light conditions
 
 
 ::::::::::::: challenge
-## Exercise 3: Outsmarted by Excel (3 min)
+## Exercise 3: Outsmarted by Excel (4 min)
 
 
 Excel has built in autoformatting functions which can make biologist's life more difficult
@@ -344,7 +347,7 @@ Excel has built in autoformatting functions which can make biologist's life more
 
 ::::::::::::: 
 
-(9 min teaching)
+(7 min teaching)
 
 A team of Australian researchers analyzed nearly 3,600 genetics papers [Ziemann 2016](https://doi.org/10.1186/s13059-016-1044-7).
 As is common practice in the field, these papers all came with supplementary files
@@ -423,7 +426,7 @@ Check out this carpentry course specifically designed for ecologists: **Data Cle
 :::::::: 
 
 :::::::: challenge
-## Exercise 4: Data tables and FAIR (3 min)
+## Exercise 4: Data tables and FAIR (4 min)
 
  Which of the following statements is true/false (T or F):
 
