@@ -1,7 +1,7 @@
 ---
 title: "Introduction to metadata"
-teaching: 11
-exercises: 14
+teaching: 15
+exercises: 20
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
@@ -22,7 +22,7 @@ exercises: 14
 
 
 
-(5 min teaching)
+(13 min teaching)
 
 ## What is (or are) metadata?
 
@@ -182,7 +182,8 @@ But,
 
 ::::::::::::: challenge
 
-## Exercise 1: What to include - discussion (5 minutes)
+## Exercise 1: What to include - discussion 
+(5 minutes breakout + 7 discussing results)
 
 Think of the data you generate in your projects,
 and imagine you are going to share them.
@@ -216,7 +217,6 @@ Some typical elements are:
 ::::::::::::: 
 
 ## Minimal Information Standard
-
 For many assay methods and experiment types, there are defined recommendations and guidelines called **Minimal Information Standards (MIS)**.
 
 The minimum information standard is a set of guidelines for reporting data derived by relevant methods in the biosciences. Following these guidelines ensures that the data can be easily:
@@ -247,6 +247,7 @@ for finding standards
 ::::::::::::: challenge
 
 ## Exercise 2: Minimal information standard example (5 min)
+(about 4 + 2 discussion)
 
 Look at the document titled "**Minimum Information About a Neuroscience Investigation (MINI) Electrophysiology**" (Gibson, F. et al. Nat Prec (2008): [https://www.nature.com/articles/npre.2008.1720.1.pdf](https://www.nature.com/articles/npre.2008.1720.1.pdf)), which contains recommendations for reporting the use of electrophysiology in a neuroscience study.  
 (*Neuroscience (or neurobiology) is the scientific study of the nervous system*).
@@ -272,7 +273,7 @@ Look at the document titled "**Minimum Information About a Neuroscience Investig
 ::::::::::::: 
 
 
-
+(3 min)
 
 ## Metadata and FAIR guidelines
 
