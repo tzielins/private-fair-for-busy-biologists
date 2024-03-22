@@ -1,5 +1,5 @@
 ---
-title: "(Meta)data in Excel"
+title: "Tidy (meta)data tables"
 teaching: 20
 exercises: 16
 ---
@@ -76,7 +76,8 @@ Have you encountered similar tables in your experience? Do you believe this exam
 :::::::::::::
 :::::::::::::
 
-## Common Spreadsheet Errors (25 min teaching)
+## Common Spreadsheet Errors 
+(25 min teaching)
 
 ### <a name="tables"></a> 1. Using multiple tables
 
@@ -311,7 +312,8 @@ Title   |  Starch content in Arabidopis T. under different light conditions
 ::::::::::::: 
 
 
-## Clean data tables make life easier (2 min teaching)
+## Clean data tables make life easier 
+(2 min teaching)
 
 
  Let's check the cleaned version of the previous [file](./files/04-better-metadata.xlsx).

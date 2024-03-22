@@ -275,7 +275,8 @@ capture some of those parameters.
 
 
 
-## Strategies to set up a clear folder structure (3 min teaching)
+## Strategies to set up a clear folder structure 
+(3 min teaching)
 
 Establishing a system that allows you to access your files,
 avoid duplication and ensure that your data can be easily found
