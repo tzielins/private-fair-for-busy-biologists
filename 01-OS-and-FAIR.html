@@ -147,12 +147,22 @@
 <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
         1. Introduction to Open Science and FAIR principles
         </span>
-      
+      </button>
     </div><!--/div.accordion-header-->
+        
+    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
+      <div class="accordion-body">
+        <ul><li><a href="#being-fair">Being FAIR</a></li>
+<li><a href="#fair-in-biological-practice">FAIR in biological practice</a></li>
+<li><a href="#fair-vs-open-science-2-min-teaching">FAIR vs Open Science (2 min teaching)</a></li>
+<li><a href="#attribution">Attribution</a></li>
+        </ul></div><!--/div.accordion-body-->
+    </div><!--/div.accordion-collapse-->
         
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -169,7 +179,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="03-data-in-excel.html">3. (Meta)data in Excel</a>
+        <a href="03-data-in-excel.html">3. Tidy (meta)data tables</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -614,7 +624,7 @@ Science practices.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ul><li>
 <strong>Data Sensitivity:</strong> Anonymizing data from certain
@@ -688,9 +698,9 @@ expensive, especially for large datasets.</p>
 such data accessible for 10 years involves serious financial
 commitment.</p>
 </div>
-<div class="section level1">
-<h1 id="being-fair">Being FAIR<a class="anchor" aria-label="anchor" href="#being-fair"></a></h1>
-<p>We’ve explored the advantages of Open Science practices for both the
+<section id="being-fair"><h2 class="section-heading">Being FAIR<a class="anchor" aria-label="anchor" href="#being-fair"></a>
+</h2>
+<hr class="half-width"><p>We’ve explored the advantages of Open Science practices for both the
 scientific community and individual researchers. While Open Access has
 made recent biomedical publications readily available, the same
 accessibility often isn’t the case for the underlying data and
@@ -758,7 +768,7 @@ Reusable?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <ul><li>Ref 17 will lead you to <a href="https://doi.org/10.1002/ana.24102" class="external-link">this paper</a>, which first of
 all is not Open Access</li>
@@ -801,7 +811,7 @@ data column.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <ul><li>Finding the right table and column containing the relevant data is
 already problematic as the headers are obscured so they need to decoded
@@ -884,9 +894,9 @@ to govern (meta)data reuse.</p>
 </div>
 </div>
 </div>
-<div class="section level2">
-<h2 id="fair-in-biological-practice">FAIR in biological practice<a class="anchor" aria-label="anchor" href="#fair-in-biological-practice"></a></h2>
-<div class="section level4">
+</section><section id="fair-in-biological-practice"><h2 class="section-heading">FAIR in biological practice<a class="anchor" aria-label="anchor" href="#fair-in-biological-practice"></a>
+</h2>
+<hr class="half-width"><div class="section level4">
 <h4 id="findable-accessible">Findable &amp; Accessible<a class="anchor" aria-label="anchor" href="#findable-accessible"></a></h4>
 <p>Deposit your data in a reputable external public repository.</p>
 <p>These repositories provide persistent identifiers (PIDs) for easy
@@ -921,7 +931,7 @@ episode.</em></p>
   <h3 class="accordion-header" id="headingSpoiler1">
 <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>What are persistent identifiers (PIDs)</h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
 <div class="accordion-body">
 <p>A persistent identifier (PID) is a long-lasting reference to a
 digital resource. It typically consists of two parts:</p>
@@ -1026,7 +1036,7 @@ file</em></p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4">Show me the solution</h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <ul><li>F: The dataset is identified by a PID (doi). It can be found by its
 ID. It human accessible description and keywords, both suitable for
@@ -1066,10 +1076,9 @@ sufficient detail allows for reproducing the experiments, facilitating
 verification and building upon existing knowledge. This saves time and
 resources.</li>
 </ul></div>
-</div>
-<div class="section level2">
-<h2 id="fair-vs-open-science-2-min-teaching">FAIR vs Open Science (2 min teaching)<a class="anchor" aria-label="anchor" href="#fair-vs-open-science-2-min-teaching"></a></h2>
-<p><strong>FAIR is not synonymous with Open.</strong> FAIR guidelines
+</section><section id="fair-vs-open-science-2-min-teaching"><h2 class="section-heading">FAIR vs Open Science (2 min teaching)<a class="anchor" aria-label="anchor" href="#fair-vs-open-science-2-min-teaching"></a>
+</h2>
+<hr class="half-width"><p><strong>FAIR is not synonymous with Open.</strong> FAIR guidelines
 primarily require open access to the metadata record, describing the
 data’s existence, a user-friendly PID for reference, and potentially
 some restrictions on accessing the actual data files (e.g., login
@@ -1120,7 +1129,7 @@ be FAIR.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
   <h4 class="accordion-header" id="headingSolution5">Show me the solution</h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
 <div class="accordion-body">
 <ul><li>Open Science relies strongly on the Internet T</li>
 <li>Open Access eliminates publishing costs F</li>
@@ -1159,10 +1168,9 @@ be FAIR. F</li>
 <span id="cb1-4"><a href="#cb1-4" tabindex="-1"></a> <span class="ex">-</span> [Ted talk supporting OS]<span class="er">(</span><span class="ex">https://www.youtube.com/watch?v=c-bemNZ-IqA</span><span class="kw">)</span></span></code></pre>
 </div>
 </div>
-</div>
-<div class="section level2">
-<h2 id="attribution">Attribution<a class="anchor" aria-label="anchor" href="#attribution"></a></h2>
-<div class="codewrapper sourceCode" id="cb2">
+</section><section id="attribution"><h2 class="section-heading">Attribution<a class="anchor" aria-label="anchor" href="#attribution"></a>
+</h2>
+<hr class="half-width"><div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">SH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="sourceCode sh" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a> <span class="ex">Content</span> of this episode was adapted from:</span>
@@ -1189,12 +1197,7 @@ be FAIR. F</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
-</div>
-</div>
-
-
-
-      </div> <!-- / div.lesson-content -->
+</section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="index.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="02-Intro-to-metadata.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
