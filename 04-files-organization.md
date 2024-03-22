@@ -1,6 +1,6 @@
 ---
 title: "Working with files"
-teaching: 30
+teaching: 20
 exercises: 30
 ---
 
@@ -64,6 +64,7 @@ and allow you to easily identify if something is missing.
 :::::::::::::::::::::::::::::::::::::::::::::::: challenge
 
 ## Exercise 1: Naming and sorting (12 min - 3 min explanation)
+(5 min breakout + 5 discussing)
 
  Have a look at the example files from a project, similar
  to the one from the previous metadata episode.
@@ -127,7 +128,7 @@ and allow you to easily identify if something is missing.
 ::::::::::::::::::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-(4 min teaching)
+(7 min teaching)
 
 Some things to take into account to decide on your naming convention are:
 
@@ -165,6 +166,7 @@ as archiving or moving between OS may fail
 :::::::::::::::::::::::::::::::::::::::::::::::: challenge
 
  ## Exercise 2: A good name (3 min)
+
  Select which file options adhere the best to the presented recommendations:
  
  1.  
@@ -198,7 +200,8 @@ capture some of those parameters.
 
 :::::::::::::::::::::::::::::::::::::::::::::::: challenge
 
-## Exercise 3: Folders vs Files (5 min)
+## Exercise 3: Folders vs Files 
+(5 min)
 
  Have a look as these two different organization strategies:
 
@@ -263,6 +266,7 @@ capture some of those parameters.
 :::::::::::::::::::::::::::::::::::::::::::::::: 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+(4 min teaching)
 
 ## Must do: Document your strategy
  Regardless of whether you are using long filenames or incorporating
@@ -287,7 +291,8 @@ You can start by developing a logical folder structure. To do so, you need to ta
 
 :::::::::::::::::::::::::::::::::::::::::::::::: challenge
 
-## Exercise 4: Typical folder organizations (7 min)
+## Exercise 4: Typical folder organizations 
+(5 min breakout + 7 explanation)
 
  Have a look at the four different folder structures. 
  <img src="./fig/07-file_organisation.png" alt="file-organisation-strategies" width="600"/>
@@ -325,7 +330,7 @@ You can start by developing a logical folder structure. To do so, you need to ta
 :::::::::::::::::::::::::::::::::::::::::::::::: 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-
+(4 min teaching)
 :::::::::::::::::::::::::::::::::::::::::::::::: spoiler
 
 ## (Optional) Good enough practices for scientific computing recommendations
@@ -346,7 +351,7 @@ You can start by developing a logical folder structure. To do so, you need to ta
 
 
 
-## After you have a plan (5 min teaching)
+## After you have a plan 
 Your naming conventions might need some adjustments as the project progresses.
 Don't despair, just document it!
 

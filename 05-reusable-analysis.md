@@ -1,6 +1,6 @@
 ---
 title: "Reusable analysis"
-teaching: 60
+teaching: 15
 exercises: 30
 ---
 

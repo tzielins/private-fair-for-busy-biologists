@@ -1,7 +1,7 @@
 ---
 title: "Public repositories"
-teaching: 26
-exercises: 39
+teaching: 15
+exercises: 25
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
@@ -23,7 +23,7 @@ exercises: 39
 
 
 
-## What are research data repositories? (13 min teaching)
+## What are research data repositories? (4 min teaching)
 
 Research data repositories are online repositories that enable the preservation, curation and publication of research 'products'. These repositories are mainly used to deposit research 'data'. However, the scope of the repositories is broader as we can also deposit/publish 'code' or 'protocols' (as we saw with protocols.io). 
 
@@ -46,7 +46,7 @@ Research data repositories are a key resource to help in data FAIRification as t
 assure Findability and Accessibility.
 
 :::::::::::::::::::::: challenge
-## Exercise 1: Public general record (8 min)
+## Exercise 1: Public general record (5 min)
 
 Have a look at the following record for data set in Zenodo repository:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5045374.svg)](https://doi.org/10.5281/zenodo.5045374)  
@@ -110,7 +110,8 @@ However, it is not to good for discovery and does not enforce most metadata!
 
 
 :::::::::::::::::::::: challenge
-## Exercise 3. Domain specific repositories (7 min).  
+## Exercise 3. Domain specific repositories 
+(5 min + 5).  
   
  Select one of the following repositories based on your expertise/interests:  
   
@@ -161,7 +162,7 @@ So how do you go about finding a repository:
 
 :::::::::::::: challenge
 
-## Exercise 4: Finding a repository (5 min + 4 min discussion).
+## Exercise 4: Finding a repository (5 min + 2 min discussion).
 
 a) Using Fairsharing (https://fairsharing.org/)  find a repo for flow cytometry
 b) once done, search for repository for genomics data.  
@@ -210,7 +211,7 @@ An interesting take can be found at Peter Murray-Rust's blog post [Criteria for 
     
 
 :::::::::::: challenge    
-## Exercise 5: Wrap up discussion (7 min - OPTIONAL).
+## Exercise 5: Wrap up discussion (5 min).
 
 Discuss the following questions:
 

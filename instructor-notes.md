@@ -14,13 +14,16 @@ We heavily depend on the online setting, ie. video call with breakout rooms, the
 We are not sure if this course in its current form would work in real-world workshop. For one there is will an significant overhead in starting group activities (people need to move around etc).
 Unlike speaking up, the pads allows multiple student provide answers and suggestion in the same time. 
 
-We delivered the training as 2 x 3 hours modules.  
+We delivered the training as 2 x 3:15 (3 and quoter) hours modules.  
 
 The `instructors` folders contains the slide decks for the delivery, which works better than scrolling through carpentry website.
 
 There are also set of word documents with content of the etherpad with the exercises for the student. They are bundled into "days" and should be copied into pads before the workshop. 
 
 We tried to order the episodes in logical sequence, but they can be shuffled around.
+
+Pads and main text contain clues about timings for excercise and teaching,
+as measured during our deliveries. 
 
 
 ### Breakout rooms
