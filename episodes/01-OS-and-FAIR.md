@@ -277,7 +277,7 @@ For example, microscopy datasets reach sizes in terabytes,
 making such data accessible for 10 years involves serious financial commitment.
 
 
-# Being FAIR
+## Being FAIR
 
 We've explored the advantages of Open Science practices for both the scientific community and individual researchers. While Open Access has made recent biomedical publications readily available, the same accessibility often isn't the case for the underlying data and software.
 
