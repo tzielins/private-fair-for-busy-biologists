@@ -1,7 +1,12 @@
 ---
 title: "Introduction to metadata"
+<<<<<<< HEAD
 teaching: 15
 exercises: 20
+=======
+teaching: 11
+exercises: 14
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
@@ -13,7 +18,11 @@ exercises: 20
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
+<<<<<<< HEAD
 - Recognize what metadata is
+=======
+- Recognise what metadata is
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 - Distinguish different types of metadata
 - Know how to decide what to include in metadata
 
@@ -22,6 +31,7 @@ exercises: 20
 
 
 
+<<<<<<< HEAD
 (13 min teaching)
 
 ## What is (or are) metadata?
@@ -34,6 +44,19 @@ Simply put, metadata is data about the data. Sound confusing? Let's clarify: met
 This is a confocal microscopy image of a *C. elegans* nematode strain used
 as a proteostasis model (Pretty! Isn't it?). The image is part of the raw data
 associated with [Goya et al., 2020](https://doi.org/10.1016/j.celrep.2019.12.078),
+=======
+(5 min teaching)
+
+## What is (or are) metadata?
+
+Simply put, metadata is data about the data. Sound confusing? Lets clarify: metadata is the *description of data*. It allows deeper understanding of data and provides insight for its interpretation. Hence, your metadata should be considered as important as your data. Further, metadata plays a very important role in making your data FAIR. It should be continuously added to your research data (not just at the beginning or end of a project!). Metadata can be produced in an automated way (e.g. when you capture a microscopy image usually the accompanying software saves metadata as part of it) or manually.
+
+<ins>Let's take a look at an example:</ins>
+
+This is a confocal microscopy image of a *C. elegans* nematode strain used
+as a proteostasis model (Pretty! Isn't it?). The image is part of the raw data
+associated to [Goya et al., 2020](https://doi.org/10.1016/j.celrep.2019.12.078),
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 which was deposited in a Public Omero Server   
 [Project](https://publicomero.bio.ed.ac.uk/webclient/?show=project-58)  
 [Figure1 set](https://publicomero.bio.ed.ac.uk/webclient/?show=dataset-231)
@@ -119,6 +142,7 @@ This is a lot of information!
 
 ## Types of metadata
 
+<<<<<<< HEAD
 According to [How to FAIR](https://howtofair.dk/), we can distinguish between three main types of metadata:
 
 * **Administrative metadata:** Data about a project or resource that is relevant for managing it; for example, project/resource owner, principal investigator, project collaborators, funder, project period, etc. They are usually assigned to the data before you collect or create them.
@@ -127,11 +151,35 @@ According to [How to FAIR](https://howtofair.dk/), we can distinguish between th
 
 Descriptive and structural **metadata should be added continuously** throughout the project.
 
+=======
+According to [How to FAIR](https://howtofair.dk/) we can distinguish
+between three main types of metadata:
+
+* **Administrative metadata:** data about a project or resource
+that are relevant for managing it; E.g. project/resource owner,
+principal investigator, project collaborators, funder, project period,
+etc. They are usually assigned to the data, before you collect or create
+them.
+* **Descriptive or citation metadata:** data about a dataset or
+resource that allow people to discover and identify it; E.g.
+authors, title, abstract, keywords, persistent identifier, related
+publications, etc.
+* **Structural metadata:** data about how a dataset or resource
+came about, but also how it is internally structured. E.g. the unit 
+of analysis, collection method, sampling procedure, sample size, 
+categories, variables, etc. Structural metadata have to be gathered by 
+the researchers according to best practice in their research community 
+and will be published together with the data.
+
+Descriptive and structural **metadata should be added
+continuously** throughout the project.
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 
 
 
 ### Examples of metadata
 
+<<<<<<< HEAD
 ere we have an Excel spreadsheet that contains project metadata for a made-up experiment of plant metabolites:
 
 ![Metadata in data table example](./fig/04-metadatafull_spreadsheet_solution.png)  
@@ -144,13 +192,36 @@ Different types of metadata (administrative, descriptive, structural) are presen
 - Structural metadata marked in green
 
 Embedding metadata with your data as in the example is a very useful technique as the metadata remain joined to the data. As you can see, typically the metadata can be found in column headers (e.g., Strain, Media) or as key-value pairs (e.g., Funder, Protocols).
+=======
+Here we have an excel spreadsheet that contains project metadata for
+a made-up experiment of plant metabolites
+![Metadata in data table example](./fig/04-metadatafull_spreadsheet_solution.png)
+*Figure credits: Tomasz Zielinski and Andrés Romanowski*
+
+Different types of metadata (administrative,
+descriptive, structural) are present in this example.
+
+ * Administrative metadata marked in blue
+ * Descriptive metadata marked in orange
+ * Structural metadata marked in green
+
+Embedding metadata with your data as in the example is very useful technique
+as the metadata remain joined to the data.  
+As you can see typically the metadata can be found in column headers (eg. Strain, Media) or as key value pairs (eg. Funder, Protocols) 
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 
 
 (6 min teaching)
 
+<<<<<<< HEAD
 Another form of storing metadata is the creation of a README file.
 
 For example, check the README files of two datasets:
+=======
+Another form of storing metadata is creation of README file.
+
+For example check the README files of two datasets
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 
 * [NMJ analysis](https://github.com/Boehmin/NMJ_analysis)
 * [COVID wastewater data](https://github.com/BioRDM/COVID-Wastewater-Scotland)
@@ -162,19 +233,40 @@ Check what sections the readme files typically include.
 
 ## Where does data end and metadata start?
 
+<<<<<<< HEAD
 What is "data" and what is "metadata" can be a matter of perspective: Some researchers' metadata can be other researchers' data.
 
 For example, a funding body is categorized as typical administrative metadata; however, it can be used to calculate numbers of public datasets per funder and then used to compare the effects of different funders' policies on open practices.
 
+=======
+What is "data" and what is "metadata" can be a matter of
+perspective: Some researchers' metadata can be other researchers'
+data.
+
+For example, a funding body is categorised as typical administrative metadata,
+however, it can be used to calculate numbers of public datasets per funder
+and then used to compare effects of different funders' policies on open practices.
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 
 ::::
 
 ## Adding metadata to your experiments
 
+<<<<<<< HEAD
 Good metadata is crucial for assuring the reusability of your outcomes. Adding metadata is also a very time-consuming process if done manually, so collecting metadata should be done incrementally during your experiment.
 
 As we saw, metadata can take many forms, from as simple as including a ReadMe.txt file, embedding them inside the Excel files, to using domain-specific metadata standards and formats.
 
+=======
+Good metadata are crucial for assuring re-usability of your outcomes.
+Adding metadata is also a very time-consuming process if done manually,
+so collecting metadata should be done incrementally during your experiment.
+
+As we saw metadata can take many forms
+from as simple as including a ReadMe.txt file,
+by embedding them inside the Excel files,
+to using domain specific metadata standards and formats.
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 
 But,
 * **What should be included in metadata?**
@@ -182,8 +274,12 @@ But,
 
 ::::::::::::: challenge
 
+<<<<<<< HEAD
 ## Exercise 1: What to include - discussion 
 (5 minutes breakout + 7 discussing results)
+=======
+## Exercise 1: What to include - discussion (5 minutes)
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 
 Think of the data you generate in your projects,
 and imagine you are going to share them.
@@ -217,6 +313,7 @@ Some typical elements are:
 ::::::::::::: 
 
 ## Minimal Information Standard
+<<<<<<< HEAD
 For many assay methods and experiment types, there are defined recommendations and guidelines called **Minimal Information Standards (MIS)**.
 
 The minimum information standard is a set of guidelines for reporting data derived by relevant methods in the biosciences. Following these guidelines ensures that the data can be easily:
@@ -238,6 +335,27 @@ Individual minimum information standards are developed by communities of cross-d
 
 
 ![Minimum information standards](./fig/02-MinimumInformationStandarts.png)  
+=======
+
+For many assay methods and experiment types, there are defined recommendations
+and guidelines called **Minimal Information Standards**.
+
+
+The minimum information standard is a set of guidelines for reporting data
+derived by relevant methods in biosciences.
+If followed, it ensures that the data can be easily verified,
+analysed and clearly interpreted by the wider scientific community.
+Keeping with these recommendations also facilitates the foundation of structuralized
+databases, public repositories and development of data analysis tools.
+
+Individual minimum information standards are brought by the communities of cross-disciplinary
+specialists focused on issues of the specific method used in experimental biology.
+
+Minimum Information for Biological and Biomedical Investigations [(MIBBI)](https://fairsharing.org/collection/MIBBI)
+is the collection of the most known standards.
+
+![Minimum information standards](./fig/02-MinimumInformationStandarts.png)
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 Figure. Some of the MIBBI minimum information standards from fairsharing.org
 
 
@@ -247,12 +365,20 @@ for finding standards
 ::::::::::::: challenge
 
 ## Exercise 2: Minimal information standard example (5 min)
+<<<<<<< HEAD
 (about 4 + 2 discussion)
 
 Look at the document titled "**Minimum Information About a Neuroscience Investigation (MINI) Electrophysiology**" (Gibson, F. et al. Nat Prec (2008): [https://www.nature.com/articles/npre.2008.1720.1.pdf](https://www.nature.com/articles/npre.2008.1720.1.pdf)), which contains recommendations for reporting the use of electrophysiology in a neuroscience study.  
 (*Neuroscience (or neurobiology) is the scientific study of the nervous system*).
 
 
+=======
+
+ Look at ***Minimum Information about a Neuroscience Investigation (MINI) Electrophysiology***
+ [Gibson, F. et al. Nat Prec (2008)](https://www.nature.com/articles/npre.2008.1720.1.pdf).
+ which contains recommendations for reporting the use of electrophysiology in a neuroscience study.  
+ (*Neuroscience (or neurobiology) is the scientific study of the nervous system*).
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 
  Scroll to *Reporting requirement* and decide which of the points 1-8 are:
 
@@ -273,6 +399,7 @@ Look at the document titled "**Minimum Information About a Neuroscience Investig
 ::::::::::::: 
 
 
+<<<<<<< HEAD
 (3 min)
 
 ## Metadata and FAIR guidelines
@@ -283,6 +410,19 @@ Since metadata is data about data, all of the FAIR principles (Findable, Accessi
 
 Ideally, metadata should be not only machine-readable but also interoperable so that computer systems can interlink or reason about it.
 
+=======
+
+
+## Metadata and FAIR guidelines
+Metadata provides extremely valuable information for us and others to be able to 
+interpret, process, reuse and reproduce the research data it accompanies.
+
+Because metadata are data about data, all of the FAIR principles i.e.
+Findable, Accessible, Interoperable and Reusable apply to metadata.
+
+Ideally, metadata should not only be machine-readable, but also interoperable
+so that they can interlink or be reasoned about by computer systems.
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 
 
 ## Attribution

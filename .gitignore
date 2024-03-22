@@ -2,6 +2,10 @@
 episodes/*html
 site/*
 !site/README.md
+<<<<<<< HEAD
+=======
+instructors/~*
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 
 # History files
 .Rhistory
@@ -49,4 +53,7 @@ docs/
 # translation temp files
 po/*~
 
+<<<<<<< HEAD
 ~$*
+=======
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096

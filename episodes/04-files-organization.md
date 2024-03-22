@@ -1,6 +1,10 @@
 ---
 title: "Working with files"
+<<<<<<< HEAD
 teaching: 20
+=======
+teaching: 30
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 exercises: 30
 ---
 
@@ -64,7 +68,10 @@ and allow you to easily identify if something is missing.
 :::::::::::::::::::::::::::::::::::::::::::::::: challenge
 
 ## Exercise 1: Naming and sorting (12 min - 3 min explanation)
+<<<<<<< HEAD
 (5 min breakout + 5 discussing)
+=======
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 
  Have a look at the example files from a project, similar
  to the one from the previous metadata episode.
@@ -128,7 +135,11 @@ and allow you to easily identify if something is missing.
 ::::::::::::::::::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+<<<<<<< HEAD
 (7 min teaching)
+=======
+(4 min teaching)
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 
 Some things to take into account to decide on your naming convention are:
 
@@ -166,7 +177,10 @@ as archiving or moving between OS may fail
 :::::::::::::::::::::::::::::::::::::::::::::::: challenge
 
  ## Exercise 2: A good name (3 min)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
  Select which file options adhere the best to the presented recommendations:
  
  1.  
@@ -200,8 +214,12 @@ capture some of those parameters.
 
 :::::::::::::::::::::::::::::::::::::::::::::::: challenge
 
+<<<<<<< HEAD
 ## Exercise 3: Folders vs Files 
 (5 min)
+=======
+## Exercise 3: Folders vs Files (5 min)
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 
  Have a look as these two different organization strategies:
 
@@ -266,7 +284,10 @@ capture some of those parameters.
 :::::::::::::::::::::::::::::::::::::::::::::::: 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+<<<<<<< HEAD
 (4 min teaching)
+=======
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 
 ## Must do: Document your strategy
  Regardless of whether you are using long filenames or incorporating
@@ -275,8 +296,12 @@ capture some of those parameters.
 
 
 
+<<<<<<< HEAD
 ## Strategies to set up a clear folder structure 
 (3 min teaching)
+=======
+## Strategies to set up a clear folder structure (3 min teaching)
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 
 Establishing a system that allows you to access your files,
 avoid duplication and ensure that your data can be easily found
@@ -292,8 +317,12 @@ You can start by developing a logical folder structure. To do so, you need to ta
 
 :::::::::::::::::::::::::::::::::::::::::::::::: challenge
 
+<<<<<<< HEAD
 ## Exercise 4: Typical folder organizations 
 (5 min breakout + 7 explanation)
+=======
+## Exercise 4: Typical folder organizations (7 min)
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 
  Have a look at the four different folder structures. 
  <img src="./fig/07-file_organisation.png" alt="file-organisation-strategies" width="600"/>
@@ -331,7 +360,11 @@ You can start by developing a logical folder structure. To do so, you need to ta
 :::::::::::::::::::::::::::::::::::::::::::::::: 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+<<<<<<< HEAD
 (4 min teaching)
+=======
+
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 :::::::::::::::::::::::::::::::::::::::::::::::: spoiler
 
 ## (Optional) Good enough practices for scientific computing recommendations
@@ -352,7 +385,11 @@ You can start by developing a logical folder structure. To do so, you need to ta
 
 
 
+<<<<<<< HEAD
 ## After you have a plan 
+=======
+## After you have a plan (5 min teaching)
+>>>>>>> 69fe4da4ea33dd934ac1234f4b46c6c43c44b096
 Your naming conventions might need some adjustments as the project progresses.
 Don't despair, just document it!
 
